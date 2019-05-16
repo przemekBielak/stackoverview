@@ -12,14 +12,14 @@ const InfoType = new GraphQLObjectType({
     index: { type: GraphQLInt },
     age: { type: GraphQLInt },
     eyeColor: { type: GraphQLString },
-    name: {type: GraphQLString},
+    name: { type: GraphQLString },
     gender: { type: GraphQLString },
     company: { type: GraphQLString },
     email: { type: GraphQLString },
     phone: { type: GraphQLString },
     address: { type: GraphQLString },
     about: { type: GraphQLString },
-    registered: { type: GraphQLString },
+    registered: { type: GraphQLString }
   })
 });
 
@@ -30,9 +30,9 @@ const RootQuery = new GraphQLObjectType({
       type: InfoType,
       args: { id: { type: GraphQLString } },
       resolve(parent, args) {
-        return data.filter(x => {
-          return x.id == args.id;
-        })[0];
+        return data.find(x => {
+          return x.id === args.id;
+        });
       }
     }
   }
