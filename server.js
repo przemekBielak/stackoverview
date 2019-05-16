@@ -1,23 +1,19 @@
-const fetch = require("node-fetch");
 const express = require("express");
 const bodyParser = require("body-parser");
 const path = require("path");
+const graphqlHTTP = require("express-graphql");
 
-fetch(
-  "https://api.stackexchange.com/2.2/questions?order=desc&sort=hot&site=stackoverflow"
-)
-  .then(res => res.json())
-  .then(data => {
-    data.items.forEach(item =>
-      console.log(`Title: ${item.title}, Link: ${item.link}`)
-    );
-  })
-  .catch(err => {
-    throw new console.error(err);
-  });
-
+const schema = require("./schema/schema");
 const app = express();
+
 app.use(bodyParser.json());
+app.use(
+  "/graphql/",
+  graphqlHTTP({
+    schema,
+    graphiql: true
+  })
+);
 app.use(express.static(path.join(__dirname, "build")));
 
 app.get("/", (req, res) => {
