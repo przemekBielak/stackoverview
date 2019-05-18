@@ -66,7 +66,7 @@ app.use(
 
       type RootQuery {
         questions(is_answered: Boolean): [Question]
-        answers: [Answer]
+        answers(question_id: Int): [Answer]
       }
 
       schema {
@@ -79,15 +79,11 @@ app.use(
       },
       answers: args => {
         return (async () => {
-          let stackAnswers = [];
-          
           const res = await fetch(
-            `https://api.stackexchange.com/2.2/questions/11227809/answers?order=desc&sort=activity&site=stackoverflow&filter=withbody`
+            `https://api.stackexchange.com/2.2/questions/${args.question_id}/answers?order=desc&sort=activity&site=stackoverflow&filter=withbody`
           );
           const data = await res.json();
-          stackAnswers = data.items;
-  
-          return stackAnswers;
+          return data.items;
         })();
       }
     },
@@ -129,8 +125,6 @@ const getStackQuestions = questions => {
 };
 
 getStackQuestions(questionSorts);
-
-
 
 // fetch(
 //   `https://api.stackexchange.com/2.2/questions/11227809/answers?order=desc&sort=activity&site=stackoverflow&filter=withbody`

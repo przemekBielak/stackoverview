@@ -3,11 +3,36 @@ import React, { Component } from "react";
 class Questions extends Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      answers: []
+    };
   }
 
   showDetails(question_id) {
-    console.log(question_id);
+    const requestQuestionsBody = {
+      query: `{
+          answers (question_id: ${question_id}){
+            answer_id
+            score
+            body
+        }
+      }`
+    };
+
+    fetch("/graphql", {
+      method: "POST",
+      body: JSON.stringify(requestQuestionsBody),
+      headers: {
+        "Content-Type": "application/json"
+      }
+    })
+      .then(res => res.json())
+      .then(data => {
+        this.setState({
+          answers: data.data.answers
+        });
+      })
+      .catch(err => console.log(err));
   }
 
   render() {
