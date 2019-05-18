@@ -11,6 +11,12 @@ class Questions extends Component {
   }
 
   showDetails(question_id) {
+    const acceptedAnswerId = this.props.questions.find(x => {
+      return x.question_id === question_id;
+    }).accepted_answer_id;
+
+    console.log(acceptedAnswerId);
+
     const requestQuestionsBody = {
       query: `{
           answers (question_id: ${question_id}){
@@ -29,10 +35,19 @@ class Questions extends Component {
     })
       .then(res => res.json())
       .then(data => {
-        this.setState({
-          answers: data.data.answers,
-          selectedQuestion: question_id
-        });
+        if (acceptedAnswerId === null) {
+          this.setState({
+            answers: data.data.answers,
+            selectedQuestion: question_id
+          });
+        } else {
+          // this.setState({
+          //   answers: data.data.answers.filter(x => {
+          //     x.answer_id === acceptedAnswerId;
+          //   }),
+          //   selectedQuestion: question_id
+          // });
+        }
       })
       .catch(err => console.log(err));
   }
@@ -42,11 +57,9 @@ class Questions extends Component {
       return x.question_id === this.state.selectedQuestion;
     });
 
-    if(typeof(questionBody) !== 'undefined') {
+    if (typeof questionBody !== "undefined") {
       questionBody = questionBody.body;
     }
-
-    console.log(questionBody);
 
     return (
       <div>
