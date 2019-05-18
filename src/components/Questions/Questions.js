@@ -5,6 +5,7 @@ class Questions extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      selectedQuestion: 0,
       answers: []
     };
   }
@@ -29,13 +30,24 @@ class Questions extends Component {
       .then(res => res.json())
       .then(data => {
         this.setState({
-          answers: data.data.answers
+          answers: data.data.answers,
+          selectedQuestion: question_id
         });
       })
       .catch(err => console.log(err));
   }
 
   render() {
+    let questionBody = this.props.questions.find(x => {
+      return x.question_id === this.state.selectedQuestion;
+    });
+
+    if(typeof(questionBody) !== 'undefined') {
+      questionBody = questionBody.body;
+    }
+
+    console.log(questionBody);
+
     return (
       <div>
         <ul>
@@ -54,6 +66,14 @@ class Questions extends Component {
           })}
         </ul>
         <div className="questions__answers">
+          <h2>Question</h2>
+          <div
+            className="questions__answers__body"
+            dangerouslySetInnerHTML={{
+              __html: questionBody
+            }}
+          />
+          <h2>Answers</h2>
           {this.state.answers.map(answer => {
             return (
               <div

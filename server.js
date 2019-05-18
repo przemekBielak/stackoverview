@@ -62,6 +62,7 @@ app.use(
         question_id: Int
         link: String
         title: String
+        body: String
       }
 
       type RootQuery {
@@ -104,7 +105,7 @@ const getStackQuestions = questions => {
   (async () => {
     for (sort of questions) {
       const res = await fetch(
-        `https://api.stackexchange.com/2.2/questions?order=desc&sort=${sort}&site=stackoverflow`
+        `https://api.stackexchange.com/2.2/questions?order=desc&sort=${sort}&site=stackoverflow&filter=withbody`
       );
       const data = await res.json();
       stackQuestions.push(

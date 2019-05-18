@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
-import Questions from "./components/Questions";
+import Questions from "./components/Questions/Questions";
 import HeaderContainer from "./components/Header/HeaderContainer";
 
 class App extends Component {
@@ -27,6 +27,7 @@ class App extends Component {
           accepted_answer_id
           sort
           score
+          body
         }
       }`
     };
