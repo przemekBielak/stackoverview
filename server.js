@@ -9,7 +9,7 @@ const fs = require("fs");
 const app = express();
 const PORT = 8080;
 
-let stackData = {};
+let stackData = [];
 
 app.use(bodyParser.json());
 app.use(
@@ -26,6 +26,7 @@ app.use(
       }
 
       type Question {
+        sort: String
         tags: [String]
         owner: Owner
         is_answered: Boolean
@@ -68,12 +69,14 @@ const questionSorts = ["activity", "votes", "hot", "week", "month"];
 const getStackQuestions = questions => {
   (async () => {
     for (sort of questions) {
+      console.log(sort);
       const res = await fetch(
         `https://api.stackexchange.com/2.2/questions?order=desc&sort=${sort}&site=stackoverflow`
       );
       const data = await res.json();
-
-      stackData = data.items;
+      stackData.push(...data.items.map(el => {
+        return {...el, "sort": sort}
+      }));        
     }
 
     fs.writeFile(
