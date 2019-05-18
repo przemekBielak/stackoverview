@@ -1,774 +1,792 @@
 [
   {
     "tags": [
-      "google-apps-script",
-      "google-sheets"
+      "latex"
     ],
     "owner": {
-      "reputation": 502,
-      "user_id": 5937760,
+      "reputation": 114,
+      "user_id": 3240290,
       "user_type": "registered",
-      "accept_rate": 93,
-      "profile_image": "https://www.gravatar.com/avatar/62d56fcd9c700416bef3c404e534b1d1?s=128&d=identicon&r=PG&f=1",
-      "display_name": "sojim2",
-      "link": "https://stackoverflow.com/users/5937760/sojim2"
-    },
-    "is_answered": false,
-    "view_count": 1,
-    "answer_count": 0,
-    "score": 0,
-    "last_activity_date": 1558187353,
-    "creation_date": 1558187353,
-    "question_id": 56199565,
-    "link": "https://stackoverflow.com/questions/56199565/fast-duplicate-removal-16k-rows",
-    "title": "Fast Duplicate Removal 16k rows",
-    "sort": "activity"
-  },
-  {
-    "tags": [
-      "java",
-      "jit",
-      "jvm-hotspot"
-    ],
-    "owner": {
-      "reputation": 353,
-      "user_id": 1430961,
-      "user_type": "registered",
-      "accept_rate": 83,
-      "profile_image": "https://i.stack.imgur.com/pYswe.jpg?s=128&g=1",
-      "display_name": "Tehreem",
-      "link": "https://stackoverflow.com/users/1430961/tehreem"
-    },
-    "is_answered": false,
-    "view_count": 1,
-    "answer_count": 0,
-    "score": 0,
-    "last_activity_date": 1558187351,
-    "creation_date": 1558187351,
-    "question_id": 56199564,
-    "link": "https://stackoverflow.com/questions/56199564/how-to-extract-jited-code-from-hotspot-vm",
-    "title": "How to extract JITed code from Hotspot VM?",
-    "sort": "activity"
-  },
-  {
-    "tags": [
-      "javascript",
-      "vue.js"
-    ],
-    "owner": {
-      "reputation": 4,
-      "user_id": 11037317,
-      "user_type": "registered",
-      "profile_image": "https://www.gravatar.com/avatar/11f45d9750e802fc28786fa9b8ef85c2?s=128&d=identicon&r=PG&f=1",
-      "display_name": "Laurent Kreps",
-      "link": "https://stackoverflow.com/users/11037317/laurent-kreps"
-    },
-    "is_answered": false,
-    "view_count": 7,
-    "answer_count": 0,
-    "score": -2,
-    "last_activity_date": 1558187335,
-    "creation_date": 1558185923,
-    "last_edit_date": 1558187335,
-    "question_id": 56199381,
-    "link": "https://stackoverflow.com/questions/56199381/vue-js-data-logic-booking-table",
-    "title": "Vue js data logic - booking table",
-    "sort": "activity"
-  },
-  {
-    "tags": [
-      "c",
-      "embedded"
-    ],
-    "owner": {
-      "reputation": 16,
-      "user_id": 7978797,
-      "user_type": "registered",
-      "profile_image": "https://www.gravatar.com/avatar/ecba5e32b5e6db0264b23c77b8699d08?s=128&d=identicon&r=PG&f=1",
-      "display_name": "איתן מס",
-      "link": "https://stackoverflow.com/users/7978797/%d7%90%d7%99%d7%aa%d7%9f-%d7%9e%d7%a1"
+      "accept_rate": 56,
+      "profile_image": "https://graph.facebook.com/100006947923001/picture?type=large",
+      "display_name": "Omar14",
+      "link": "https://stackoverflow.com/users/3240290/omar14"
     },
     "is_answered": true,
-    "view_count": 26,
+    "view_count": 2262,
     "answer_count": 2,
-    "score": 2,
-    "last_activity_date": 1558187333,
-    "creation_date": 1558183110,
-    "question_id": 56199020,
-    "link": "https://stackoverflow.com/questions/56199020/how-to-return-an-error-from-a-returning-value-function-in-c-language",
-    "title": "How to return an error from a returning value function in C language",
-    "sort": "activity"
-  },
-  {
-    "tags": [
-      "selection",
-      "polymer-3.x",
-      "vaadin-grid"
-    ],
-    "owner": {
-      "reputation": 1,
-      "user_id": 8242585,
-      "user_type": "registered",
-      "profile_image": "https://www.gravatar.com/avatar/4b38256c2a25a8b9e09fb6e5ff8586fc?s=128&d=identicon&r=PG&f=1",
-      "display_name": "slimkevkev",
-      "link": "https://stackoverflow.com/users/8242585/slimkevkev"
-    },
-    "is_answered": false,
-    "view_count": 6,
-    "answer_count": 0,
-    "score": 0,
-    "last_activity_date": 1558187325,
-    "creation_date": 1558183104,
-    "last_edit_date": 1558187325,
-    "question_id": 56199018,
-    "link": "https://stackoverflow.com/questions/56199018/how-to-implement-active-item-selection-in-a-vaadin-grid-using-polymer-3-0",
-    "title": "How to implement active item selection in a vaadin-grid using Polymer 3.0",
-    "sort": "activity"
-  },
-  {
-    "tags": [
-      "sql",
-      "sql-server",
-      "sql-server-2012"
-    ],
-    "owner": {
-      "reputation": 1,
-      "user_id": 10566478,
-      "user_type": "registered",
-      "profile_image": "https://lh3.googleusercontent.com/-ZEnkQ5Ikd0k/AAAAAAAAAAI/AAAAAAAAABY/ud1CBwXmxSI/photo.jpg?sz=128",
-      "display_name": "Pravin Gaddam",
-      "link": "https://stackoverflow.com/users/10566478/pravin-gaddam"
-    },
-    "is_answered": false,
-    "view_count": 8,
-    "answer_count": 0,
-    "score": 0,
-    "last_activity_date": 1558187325,
-    "creation_date": 1558186805,
-    "last_edit_date": 1558187325,
-    "question_id": 56199491,
-    "link": "https://stackoverflow.com/questions/56199491/my-table-contain-tdate-column-datatype-date",
-    "title": "My table contain tdate column, datatype date",
-    "sort": "activity"
-  },
-  {
-    "tags": [
-      "php",
-      "arrays",
-      "associative-array"
-    ],
-    "owner": {
-      "reputation": 291,
-      "user_id": 9402741,
-      "user_type": "registered",
-      "accept_rate": 87,
-      "profile_image": "https://www.gravatar.com/avatar/5d122c2f4a9aa27a296f2bd2830addbf?s=128&d=identicon&r=PG&f=1",
-      "display_name": "Gragas Incoming",
-      "link": "https://stackoverflow.com/users/9402741/gragas-incoming"
-    },
-    "is_answered": false,
-    "view_count": 10,
-    "answer_count": 1,
-    "score": 0,
-    "last_activity_date": 1558187315,
-    "creation_date": 1558185712,
-    "last_edit_date": 1558187315,
-    "question_id": 56199352,
-    "link": "https://stackoverflow.com/questions/56199352/assign-records-to-an-array-with-the-counter",
-    "title": "Assign records to an array with the counter",
-    "sort": "activity"
-  },
-  {
-    "tags": [
-      "javascript",
-      "vue.js"
-    ],
-    "owner": {
-      "reputation": 116,
-      "user_id": 3949503,
-      "user_type": "registered",
-      "profile_image": "https://www.gravatar.com/avatar/3652d423e48eab656ac281ad29c802a3?s=128&d=identicon&r=PG&f=1",
-      "display_name": "bozlur rahman",
-      "link": "https://stackoverflow.com/users/3949503/bozlur-rahman"
-    },
-    "is_answered": false,
-    "view_count": 20,
-    "answer_count": 1,
-    "score": 1,
-    "last_activity_date": 1558187312,
-    "creation_date": 1558163292,
-    "last_edit_date": 1558167260,
-    "question_id": 56196767,
-    "link": "https://stackoverflow.com/questions/56196767/computed-methods-not-updating-on-change-checkbox-value-in-vue-js",
-    "title": "Computed Methods not updating on change checkbox value in vue js",
-    "sort": "activity"
-  },
-  {
-    "tags": [
-      "javascript",
-      "html"
-    ],
-    "owner": {
-      "reputation": 1,
-      "user_id": 5770339,
-      "user_type": "registered",
-      "profile_image": "https://www.gravatar.com/avatar/4887e3adf7e2866c53333dce89251059?s=128&d=identicon&r=PG&f=1",
-      "display_name": "Ramaiya v raghvendra",
-      "link": "https://stackoverflow.com/users/5770339/ramaiya-v-raghvendra"
-    },
-    "is_answered": false,
-    "view_count": 26,
-    "answer_count": 0,
-    "score": -5,
-    "last_activity_date": 1558187302,
-    "creation_date": 1558023037,
-    "last_edit_date": 1558187302,
-    "question_id": 56172660,
-    "link": "https://stackoverflow.com/questions/56172660/how-to-use-javascript-dom-scrapping-to-grab-the-title-and-description-concatenat",
-    "title": "how to use javascript Dom scrapping to grab the title and description concatenated with pipe?",
-    "sort": "activity"
-  },
-  {
-    "tags": [
-      "node.js",
-      "express"
-    ],
-    "owner": {
-      "reputation": 14,
-      "user_id": 7940314,
-      "user_type": "registered",
-      "profile_image": "https://www.gravatar.com/avatar/09d5b3c92be3fdd6b03b0baf0c5b0d83?s=128&d=identicon&r=PG&f=1",
-      "display_name": "vincent villafuerte",
-      "link": "https://stackoverflow.com/users/7940314/vincent-villafuerte"
-    },
-    "is_answered": false,
-    "view_count": 3,
-    "answer_count": 0,
-    "score": 0,
-    "last_activity_date": 1558187295,
-    "creation_date": 1558187295,
-    "question_id": 56199561,
-    "link": "https://stackoverflow.com/questions/56199561/get-result-from-controller-to-route",
-    "title": "get result from controller to route",
-    "sort": "activity"
-  },
-  {
-    "tags": [
-      "python",
-      "keras",
-      "conv-neural-network"
-    ],
-    "owner": {
-      "reputation": 1,
-      "user_id": 11240811,
-      "user_type": "registered",
-      "profile_image": "https://lh4.googleusercontent.com/-Ud_rf1i0sDs/AAAAAAAAAAI/AAAAAAAAABA/diKxRnQbqkg/photo.jpg?sz=128",
-      "display_name": "eum sangwon",
-      "link": "https://stackoverflow.com/users/11240811/eum-sangwon"
-    },
-    "is_answered": false,
-    "view_count": 3,
-    "answer_count": 0,
-    "score": 0,
-    "last_activity_date": 1558187288,
-    "creation_date": 1558187288,
-    "question_id": 56199559,
-    "link": "https://stackoverflow.com/questions/56199559/input-0-of-layer-conv2d-6-is-incompatible-with-the-layer-expected-ndim-4-found",
-    "title": "Input 0 of layer conv2d_6 is incompatible with the layer: expected ndim=4, found ndim=3. Full shape received: [28, 28, 1]",
-    "sort": "activity"
-  },
-  {
-    "tags": [
-      "list",
-      "java-8",
-      "set",
-      "java-stream"
-    ],
-    "owner": {
-      "reputation": 423,
-      "user_id": 1410223,
-      "user_type": "registered",
-      "accept_rate": 32,
-      "profile_image": "https://www.gravatar.com/avatar/9bbfbb6124572ad23cf7512d51dfeed1?s=128&d=identicon&r=PG",
-      "display_name": "Anita",
-      "link": "https://stackoverflow.com/users/1410223/anita"
-    },
-    "is_answered": false,
-    "view_count": 3,
-    "answer_count": 0,
-    "score": 0,
-    "last_activity_date": 1558187285,
-    "creation_date": 1558187285,
-    "question_id": 56199558,
-    "link": "https://stackoverflow.com/questions/56199558/extract-set-from-nested-list-based-on-last-item-of-list-java",
-    "title": "Extract Set from nested List, based on last item of List, Java",
-    "sort": "activity"
-  },
-  {
-    "tags": [
-      "powershell",
-      "scripting",
-      "azure-cli"
-    ],
-    "owner": {
-      "reputation": 11,
-      "user_id": 6214138,
-      "user_type": "registered",
-      "profile_image": "https://lh3.googleusercontent.com/-LBqtULb72qY/AAAAAAAAAAI/AAAAAAAAAAA/giNz82AFbKo/photo.jpg?sz=128",
-      "display_name": "Sebastian Parkitny",
-      "link": "https://stackoverflow.com/users/6214138/sebastian-parkitny"
-    },
-    "is_answered": false,
-    "view_count": 3,
-    "answer_count": 0,
-    "score": 0,
-    "last_activity_date": 1558187284,
-    "creation_date": 1558187284,
-    "question_id": 56199557,
-    "link": "https://stackoverflow.com/questions/56199557/convert-system-object-and-dereference-properties",
-    "title": "Convert System.Object[] and dereference properties",
-    "sort": "activity"
-  },
-  {
-    "tags": [
-      "regex",
-      "bash",
-      "shell",
-      "command-line"
-    ],
-    "owner": {
-      "reputation": 495,
-      "user_id": 6256711,
-      "user_type": "registered",
-      "accept_rate": 80,
-      "profile_image": "https://www.gravatar.com/avatar/af11f5551a4bb47f2b90b9d5cf527ca6?s=128&d=identicon&r=PG&f=1",
-      "display_name": "UgoL",
-      "link": "https://stackoverflow.com/users/6256711/ugol"
-    },
-    "is_answered": true,
-    "view_count": 18,
-    "answer_count": 2,
-    "score": 0,
-    "last_activity_date": 1558187277,
-    "creation_date": 1558174365,
-    "question_id": 56197994,
-    "link": "https://stackoverflow.com/questions/56197994/add-double-quotes-to-the-first-line-of-a-csv-file-via-command-line",
-    "title": "Add double quotes to the first line of a csv file via command line",
-    "sort": "activity"
-  },
-  {
-    "tags": [
-      "javascript",
-      "php",
-      "ajax"
-    ],
-    "owner": {
-      "reputation": 91,
-      "user_id": 9899530,
-      "user_type": "registered",
-      "profile_image": "https://lh4.googleusercontent.com/-eY-gOtlrY60/AAAAAAAAAAI/AAAAAAAAAAo/OgFh43w_Zqg/photo.jpg?sz=128",
-      "display_name": "Best Dev Tutorials",
-      "link": "https://stackoverflow.com/users/9899530/best-dev-tutorials"
-    },
-    "is_answered": false,
-    "view_count": 4,
-    "answer_count": 0,
-    "score": 0,
-    "last_activity_date": 1558187268,
-    "creation_date": 1558187268,
-    "question_id": 56199556,
-    "link": "https://stackoverflow.com/questions/56199556/response-text-from-ajax-is-blank",
-    "title": "Response text from AJAX is blank",
-    "sort": "activity"
-  },
-  {
-    "tags": [
-      "google-apps-script",
-      "google-sheets"
-    ],
-    "owner": {
-      "reputation": 1,
-      "user_id": 11254856,
-      "user_type": "registered",
-      "profile_image": "https://lh3.googleusercontent.com/-yzpFdOMpMeo/AAAAAAAAAAI/AAAAAAAAACI/ymQ6YlrlLto/photo.jpg?sz=128",
-      "display_name": "MGGameLab",
-      "link": "https://stackoverflow.com/users/11254856/mggamelab"
-    },
-    "is_answered": false,
-    "view_count": 14,
-    "answer_count": 1,
-    "score": 0,
-    "last_activity_date": 1558187263,
-    "creation_date": 1558164595,
-    "last_edit_date": 1558186877,
-    "question_id": 56196900,
-    "link": "https://stackoverflow.com/questions/56196900/google-script-taking-too-much-time-getting-error-service-time-out",
-    "title": "google script taking too much time. getting error service time out",
-    "sort": "activity"
-  },
-  {
-    "tags": [
-      "sql",
-      "ms-access"
-    ],
-    "owner": {
-      "reputation": 1,
-      "user_id": 11520409,
-      "user_type": "registered",
-      "profile_image": "https://www.gravatar.com/avatar/e02cabd9072bc4428aabdc201e89b685?s=128&d=identicon&r=PG&f=1",
-      "display_name": "Magicman200777",
-      "link": "https://stackoverflow.com/users/11520409/magicman200777"
-    },
-    "is_answered": false,
-    "view_count": 9,
-    "answer_count": 1,
-    "score": 0,
-    "last_activity_date": 1558187259,
-    "creation_date": 1558187128,
-    "last_edit_date": 1558187259,
-    "question_id": 56199535,
-    "link": "https://stackoverflow.com/questions/56199535/how-to-return-null-if-any-data-element-in-a-group-by-field-is-null",
-    "title": "How to return NULL if any data element in a &quot;GROUP BY&quot; field is NULL?",
-    "sort": "activity"
-  },
-  {
-    "tags": [
-      "plot",
-      "sas",
-      "overlap",
-      "box"
-    ],
-    "owner": {
-      "reputation": 1,
-      "user_id": 11520527,
-      "user_type": "registered",
-      "profile_image": "https://www.gravatar.com/avatar/c941bf65e783d261a580f22efe351ed3?s=128&d=identicon&r=PG&f=1",
-      "display_name": "Jeeyeon",
-      "link": "https://stackoverflow.com/users/11520527/jeeyeon"
-    },
-    "is_answered": false,
-    "view_count": 2,
-    "answer_count": 0,
-    "score": 0,
-    "last_activity_date": 1558187253,
-    "creation_date": 1558187253,
-    "question_id": 56199554,
-    "link": "https://stackoverflow.com/questions/56199554/how-to-fix-overlapping-x-axis-in-box-plot-sas",
-    "title": "How to fix overlapping x axis in box plot (SAS)?",
-    "sort": "activity"
-  },
-  {
-    "tags": [
-      "flutter"
-    ],
-    "owner": {
-      "reputation": 6,
-      "user_id": 11217641,
-      "user_type": "registered",
-      "profile_image": "https://www.gravatar.com/avatar/eada95438bafde3ac1b586cd45982df2?s=128&d=identicon&r=PG&f=1",
-      "display_name": "Valeh",
-      "link": "https://stackoverflow.com/users/11217641/valeh"
-    },
-    "is_answered": true,
-    "view_count": 225,
-    "answer_count": 2,
-    "score": 0,
-    "last_activity_date": 1558187249,
-    "creation_date": 1552854765,
-    "last_edit_date": 1552856597,
-    "question_id": 55211640,
-    "link": "https://stackoverflow.com/questions/55211640/transparent-status-bar-in-flutter",
-    "title": "Transparent status bar in flutter",
-    "sort": "activity"
-  },
-  {
-    "tags": [
-      "django",
-      "django-models",
-      "django-managers"
-    ],
-    "owner": {
-      "reputation": 1078,
-      "user_id": 5053559,
-      "user_type": "registered",
-      "accept_rate": 79,
-      "profile_image": "https://www.gravatar.com/avatar/4accba715685dd4825e31d192ce7c67d?s=128&d=identicon&r=PG&f=1",
-      "display_name": "Davtho1983",
-      "link": "https://stackoverflow.com/users/5053559/davtho1983"
-    },
-    "is_answered": false,
-    "view_count": 9,
-    "answer_count": 1,
-    "score": 0,
-    "last_activity_date": 1558187247,
-    "creation_date": 1558186167,
-    "last_edit_date": 1558186929,
-    "question_id": 56199414,
-    "link": "https://stackoverflow.com/questions/56199414/django-prevent-users-from-editing-their-own-record-in-admin",
-    "title": "Django prevent users from editing their own record in admin",
-    "sort": "activity"
-  },
-  {
-    "tags": [
-      "c#",
-      "redis",
-      "signalr",
-      "real-time",
-      "server-farm"
-    ],
-    "owner": {
-      "reputation": 16,
-      "user_id": 4046963,
-      "user_type": "registered",
-      "profile_image": "https://www.gravatar.com/avatar/bb222afeae89a839fbc02f2b5f9ccbe4?s=128&d=identicon&r=PG&f=1",
-      "display_name": "Jose Luis Guerra Infante",
-      "link": "https://stackoverflow.com/users/4046963/jose-luis-guerra-infante"
-    },
-    "is_answered": false,
-    "view_count": 3,
-    "answer_count": 0,
-    "score": 1,
-    "last_activity_date": 1558187236,
-    "creation_date": 1558187236,
-    "question_id": 56199550,
-    "link": "https://stackoverflow.com/questions/56199550/signalr-core-redis-backplane-is-two-way-for-scaling",
-    "title": "SignalR Core redis backplane - Is two way for scaling?",
-    "sort": "activity"
-  },
-  {
-    "tags": [
-      "javascript",
-      "html",
-      "css"
-    ],
-    "owner": {
-      "reputation": 1,
-      "user_id": 11517911,
-      "user_type": "registered",
-      "profile_image": "https://www.gravatar.com/avatar/782f22da5e8c9b65a8324da4db51a11a?s=128&d=identicon&r=PG&f=1",
-      "display_name": "Ycirn",
-      "link": "https://stackoverflow.com/users/11517911/ycirn"
-    },
-    "is_answered": false,
-    "view_count": 15,
-    "answer_count": 1,
-    "score": -2,
-    "last_activity_date": 1558187236,
-    "creation_date": 1558186506,
-    "question_id": 56199456,
-    "link": "https://stackoverflow.com/questions/56199456/navbar-gets-on-top-of-content",
-    "title": "Navbar gets on top of content",
-    "sort": "activity"
-  },
-  {
-    "tags": [
-      "graphql",
-      "apollo",
-      "apollo-server"
-    ],
-    "owner": {
-      "reputation": 6514,
-      "user_id": 576682,
-      "user_type": "registered",
-      "accept_rate": 92,
-      "profile_image": "https://www.gravatar.com/avatar/4bf67432be46991fde147b0b0fa74312?s=128&d=identicon&r=PG",
-      "display_name": "Ant&#39;s",
-      "link": "https://stackoverflow.com/users/576682/ants"
-    },
-    "is_answered": true,
-    "view_count": 25,
-    "accepted_answer_id": 56196649,
-    "answer_count": 2,
-    "score": 0,
-    "last_activity_date": 1558187235,
-    "creation_date": 1558158462,
-    "last_edit_date": 1558159682,
-    "question_id": 56196345,
-    "link": "https://stackoverflow.com/questions/56196345/passing-the-query-param-from-top-level-to-filed-level",
-    "title": "Passing the query param from top level to filed level",
-    "sort": "activity"
-  },
-  {
-    "tags": [
-      "python",
-      "html",
-      "django",
-      "apache"
-    ],
-    "owner": {
-      "reputation": 2673,
-      "user_id": 356875,
-      "user_type": "registered",
-      "accept_rate": 86,
-      "profile_image": "https://www.gravatar.com/avatar/f2de57fa443fa4a72fd1b11bfcf7a3ae?s=128&d=identicon&r=PG",
-      "display_name": "xpanta",
-      "link": "https://stackoverflow.com/users/356875/xpanta"
-    },
-    "is_answered": true,
-    "view_count": 27,
-    "accepted_answer_id": 56197100,
-    "answer_count": 1,
-    "score": -1,
-    "last_activity_date": 1558187232,
-    "creation_date": 1558165945,
-    "last_edit_date": 1558187232,
-    "question_id": 56197028,
-    "link": "https://stackoverflow.com/questions/56197028/django-stops-with-generator-raised-stopiteration-when-html-form-allows-for-fil",
-    "title": "Django stops with &quot;generator raised StopIteration&quot; when html form allows for file upload",
-    "sort": "activity"
-  },
-  {
-    "tags": [
-      "algorithm",
-      "math",
-      "graph-algorithm"
-    ],
-    "owner": {
-      "reputation": 1,
-      "user_id": 11519964,
-      "user_type": "registered",
-      "profile_image": "https://lh3.googleusercontent.com/-JRgT6xbbbRg/AAAAAAAAAAI/AAAAAAAAAH0/-1-yRN7LRzg/photo.jpg?sz=128",
-      "display_name": "WhyNott",
-      "link": "https://stackoverflow.com/users/11519964/whynott"
-    },
-    "is_answered": false,
-    "view_count": 25,
-    "answer_count": 2,
-    "score": 0,
-    "last_activity_date": 1558187227,
-    "creation_date": 1558175177,
-    "question_id": 56198082,
-    "link": "https://stackoverflow.com/questions/56198082/establishing-chronology-of-a-list-based-on-a-directed-graph-tree",
-    "title": "Establishing chronology of a list based on a directed graph tree",
-    "sort": "activity"
-  },
-  {
-    "tags": [
-      "flutter"
-    ],
-    "owner": {
-      "reputation": 158,
-      "user_id": 8597176,
-      "user_type": "registered",
-      "profile_image": "https://www.gravatar.com/avatar/2d69635e6443411a2d4b9b5c396c77b0?s=128&d=identicon&r=PG&f=1",
-      "display_name": "nick.tdr",
-      "link": "https://stackoverflow.com/users/8597176/nick-tdr"
-    },
-    "is_answered": true,
-    "view_count": 8,
-    "accepted_answer_id": 56199246,
-    "answer_count": 3,
-    "score": 0,
-    "last_activity_date": 1558187227,
-    "creation_date": 1558184279,
-    "question_id": 56199162,
-    "link": "https://stackoverflow.com/questions/56199162/align-widget-inside-stack-occupies-full-screen",
-    "title": "Align Widget inside Stack occupies full screen",
-    "sort": "activity"
-  },
-  {
-    "tags": [
-      "chatbot",
-      "ibm-watson"
-    ],
-    "owner": {
-      "reputation": 16,
-      "user_id": 8071584,
-      "user_type": "registered",
-      "profile_image": "https://www.gravatar.com/avatar/9111126f7a9e44bde49becefafbe8e23?s=128&d=identicon&r=PG&f=1",
-      "display_name": "Rcollier",
-      "link": "https://stackoverflow.com/users/8071584/rcollier"
-    },
-    "is_answered": false,
-    "view_count": 66,
-    "answer_count": 1,
-    "score": 0,
-    "last_activity_date": 1558187203,
-    "creation_date": 1537480104,
-    "question_id": 52433797,
-    "link": "https://stackoverflow.com/questions/52433797/ibm-watson-chatbot-intent-vs-entities",
-    "title": "Ibm Watson chatbot intent vs entities",
-    "sort": "activity"
-  },
-  {
-    "tags": [
-      "c#",
-      "wpf",
-      "flowdocument"
-    ],
-    "owner": {
-      "reputation": 26,
-      "user_id": 7009375,
-      "user_type": "registered",
-      "profile_image": "https://www.gravatar.com/avatar/85d6507c8946e25320e379708f96af1b?s=128&d=identicon&r=PG&f=1",
-      "display_name": "Adam",
-      "link": "https://stackoverflow.com/users/7009375/adam"
-    },
-    "is_answered": false,
-    "view_count": 6,
-    "answer_count": 0,
-    "score": 0,
-    "last_activity_date": 1558187193,
-    "creation_date": 1558187193,
-    "question_id": 56199546,
-    "link": "https://stackoverflow.com/questions/56199546/setting-the-cell-or-text-alignment-of-a-document-table-instance",
-    "title": "Setting the cell or text alignment of a document.table instance",
-    "sort": "activity"
-  },
-  {
-    "tags": [
-      "javascript",
-      "python",
-      "function",
-      "this"
-    ],
-    "owner": {
-      "reputation": 28,
-      "user_id": 11417018,
-      "user_type": "registered",
-      "profile_image": "https://lh4.googleusercontent.com/-ZI_DP7LO6_E/AAAAAAAAAAI/AAAAAAAAA2w/18D5yCet0dA/photo.jpg?sz=128",
-      "display_name": "alpersunter",
-      "link": "https://stackoverflow.com/users/11417018/alpersunter"
-    },
-    "is_answered": false,
-    "view_count": 17,
-    "answer_count": 0,
-    "score": 2,
-    "last_activity_date": 1558187191,
-    "creation_date": 1558186142,
-    "last_edit_date": 1558187191,
-    "question_id": 56199408,
-    "link": "https://stackoverflow.com/questions/56199408/do-method-calls-of-javascript-and-python-have-the-same-structure",
-    "title": "Do method calls of javascript and python have the same structure?",
+    "score": 3,
+    "last_activity_date": 1558195969,
+    "creation_date": 1461161882,
+    "last_edit_date": 1461253480,
+    "question_id": 36746687,
+    "link": "https://stackoverflow.com/questions/36746687/automatically-extract-a-bibitem-in-latex",
+    "title": "Automatically extract a bibitem in LaTex",
     "sort": "activity"
   },
   {
     "tags": [
       "angular",
-      "unit-testing",
-      "typescript",
-      "jasmine"
+      "typescript"
     ],
     "owner": {
-      "reputation": 1323,
-      "user_id": 3029163,
+      "reputation": 106,
+      "user_id": 957380,
       "user_type": "registered",
-      "accept_rate": 87,
-      "profile_image": "https://i.stack.imgur.com/ru56W.jpg?s=128&g=1",
-      "display_name": "tymspy",
-      "link": "https://stackoverflow.com/users/3029163/tymspy"
+      "accept_rate": 53,
+      "profile_image": "https://www.gravatar.com/avatar/8e592203430907d79a173ee7139a607c?s=128&d=identicon&r=PG",
+      "display_name": "Greg Froning",
+      "link": "https://stackoverflow.com/users/957380/greg-froning"
+    },
+    "is_answered": false,
+    "view_count": 1,
+    "answer_count": 0,
+    "score": 0,
+    "last_activity_date": 1558195969,
+    "creation_date": 1558195969,
+    "question_id": 56200736,
+    "link": "https://stackoverflow.com/questions/56200736/angular-child-route-not-navigable-at-all",
+    "title": "Angular child route not navigable at all",
+    "sort": "activity"
+  },
+  {
+    "tags": [
+      "python",
+      "pandas"
+    ],
+    "owner": {
+      "reputation": 5,
+      "user_id": 2740485,
+      "user_type": "registered",
+      "profile_image": "https://www.gravatar.com/avatar/a94bea025116e61a5a572779d7aa1878?s=128&d=identicon&r=PG&f=1",
+      "display_name": "apollo86",
+      "link": "https://stackoverflow.com/users/2740485/apollo86"
+    },
+    "is_answered": false,
+    "view_count": 11,
+    "answer_count": 1,
+    "score": 0,
+    "last_activity_date": 1558195956,
+    "creation_date": 1558195385,
+    "question_id": 56200657,
+    "link": "https://stackoverflow.com/questions/56200657/rearranging-data-frame-after-combining-two-data-frames",
+    "title": "Rearranging data frame after combining two data frames",
+    "sort": "activity"
+  },
+  {
+    "tags": [
+      "ios",
+      "swift",
+      "uikit",
+      "touches"
+    ],
+    "owner": {
+      "reputation": 1092,
+      "user_id": 6747915,
+      "user_type": "registered",
+      "accept_rate": 83,
+      "profile_image": "https://i.stack.imgur.com/gDkzL.jpg?s=128&g=1",
+      "display_name": "Miotz",
+      "link": "https://stackoverflow.com/users/6747915/miotz"
+    },
+    "is_answered": false,
+    "view_count": 2,
+    "answer_count": 0,
+    "score": 0,
+    "last_activity_date": 1558195955,
+    "creation_date": 1558195955,
+    "question_id": 56200734,
+    "link": "https://stackoverflow.com/questions/56200734/ios-swift-propagates-swipe-events-from-nester-controller-to-underneath-controll",
+    "title": "iOS Swift: Propagates Swipe Events from nester controller to underneath controller",
+    "sort": "activity"
+  },
+  {
+    "tags": [
+      "linux",
+      "assembly",
+      "x86-64",
+      "shellcode"
+    ],
+    "owner": {
+      "reputation": 4,
+      "user_id": 11452010,
+      "user_type": "registered",
+      "profile_image": "https://www.gravatar.com/avatar/450a90d815a19647ac3e8de811ed9253?s=128&d=identicon&r=PG&f=1",
+      "display_name": "ebro",
+      "link": "https://stackoverflow.com/users/11452010/ebro"
+    },
+    "is_answered": false,
+    "view_count": 36,
+    "answer_count": 0,
+    "score": 0,
+    "last_activity_date": 1558195953,
+    "creation_date": 1558189192,
+    "last_edit_date": 1558195953,
+    "question_id": 56199814,
+    "link": "https://stackoverflow.com/questions/56199814/spawning-a-shell-in-linux-x86-64-assembly",
+    "title": "spawning a shell in linux x86_64 assembly",
+    "sort": "activity"
+  },
+  {
+    "tags": [
+      "javascript",
+      "reactjs",
+      "post",
+      "cors",
+      "fetch"
+    ],
+    "owner": {
+      "reputation": 387,
+      "user_id": 7946162,
+      "user_type": "registered",
+      "accept_rate": 100,
+      "profile_image": "https://graph.facebook.com/1340641802687945/picture?type=large",
+      "display_name": "Amit Das",
+      "link": "https://stackoverflow.com/users/7946162/amit-das"
+    },
+    "is_answered": false,
+    "view_count": 24,
+    "answer_count": 1,
+    "score": 0,
+    "last_activity_date": 1558195953,
+    "creation_date": 1558193069,
+    "last_edit_date": 1558194179,
+    "question_id": 56200324,
+    "link": "https://stackoverflow.com/questions/56200324/invalid-api-token",
+    "title": "Invalid API Token",
+    "sort": "activity"
+  },
+  {
+    "tags": [
+      "ssl",
+      "https",
+      "openssl"
+    ],
+    "owner": {
+      "reputation": 1758,
+      "user_id": 5047085,
+      "user_type": "registered",
+      "accept_rate": 57,
+      "profile_image": "https://i.stack.imgur.com/kJerD.jpg?s=128&g=1",
+      "display_name": "MrCholo",
+      "link": "https://stackoverflow.com/users/5047085/mrcholo"
+    },
+    "is_answered": false,
+    "view_count": 12,
+    "answer_count": 2,
+    "score": 0,
+    "last_activity_date": 1558195944,
+    "creation_date": 1558143871,
+    "question_id": 56195339,
+    "link": "https://stackoverflow.com/questions/56195339/dropped-connection-with-tls",
+    "title": "dropped connection with TLS",
+    "sort": "activity"
+  },
+  {
+    "tags": [
+      "r",
+      "algorithm",
+      "plot",
+      "statistics",
+      "simulation"
+    ],
+    "owner": {
+      "reputation": 98,
+      "user_id": 9802913,
+      "user_type": "registered",
+      "profile_image": "https://www.gravatar.com/avatar/0424e380f297d57379182de5ffec3dc7?s=128&d=identicon&r=PG&f=1",
+      "display_name": "Isa",
+      "link": "https://stackoverflow.com/users/9802913/isa"
+    },
+    "is_answered": false,
+    "view_count": 5,
+    "answer_count": 1,
+    "score": 0,
+    "last_activity_date": 1558195939,
+    "creation_date": 1558195736,
+    "question_id": 56200703,
+    "link": "https://stackoverflow.com/questions/56200703/simulation-of-bernoulli-essays",
+    "title": "Simulation of Bernoulli essays",
+    "sort": "activity"
+  },
+  {
+    "tags": [
+      "android",
+      "notifications",
+      "android-notifications"
+    ],
+    "owner": {
+      "reputation": 6168,
+      "user_id": 1870795,
+      "user_type": "registered",
+      "accept_rate": 68,
+      "profile_image": "https://i.stack.imgur.com/8lXCO.jpg?s=128&g=1",
+      "display_name": "Manuel",
+      "link": "https://stackoverflow.com/users/1870795/manuel"
+    },
+    "is_answered": false,
+    "view_count": 2,
+    "answer_count": 0,
+    "score": 0,
+    "last_activity_date": 1558195936,
+    "creation_date": 1558195936,
+    "question_id": 56200731,
+    "link": "https://stackoverflow.com/questions/56200731/how-to-dismiss-notification-without-intent",
+    "title": "How to dismiss notification without intent?",
+    "sort": "activity"
+  },
+  {
+    "tags": [
+      "math",
+      "sequence"
+    ],
+    "owner": {
+      "reputation": 3,
+      "user_id": 3735642,
+      "user_type": "registered",
+      "profile_image": "https://graph.facebook.com/846865563/picture?type=large",
+      "display_name": "user3735642",
+      "link": "https://stackoverflow.com/users/3735642/user3735642"
+    },
+    "is_answered": false,
+    "view_count": 38,
+    "closed_date": 1558068104,
+    "answer_count": 0,
+    "score": -4,
+    "last_activity_date": 1558195930,
+    "creation_date": 1558064954,
+    "last_edit_date": 1558195930,
+    "question_id": 56179325,
+    "link": "https://stackoverflow.com/questions/56179325/next-larger-character-in-lexicographical-order",
+    "closed_reason": "unclear what you&#39;re asking",
+    "title": "next larger character in lexicographical order",
+    "sort": "activity"
+  },
+  {
+    "tags": [
+      "laravel",
+      "voyager"
+    ],
+    "owner": {
+      "reputation": 1,
+      "user_id": 11306724,
+      "user_type": "registered",
+      "profile_image": "https://lh5.googleusercontent.com/-QVIzln8TFc4/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3refp_C_K2IZ4KR3kkfdl6obB1-N8Q/mo/photo.jpg?sz=128",
+      "display_name": "Руслан Шадаев",
+      "link": "https://stackoverflow.com/users/11306724/%d0%a0%d1%83%d1%81%d0%bb%d0%b0%d0%bd-%d0%a8%d0%b0%d0%b4%d0%b0%d0%b5%d0%b2"
+    },
+    "is_answered": false,
+    "view_count": 2,
+    "answer_count": 0,
+    "score": 0,
+    "last_activity_date": 1558195929,
+    "creation_date": 1558195929,
+    "question_id": 56200730,
+    "link": "https://stackoverflow.com/questions/56200730/laravel-voyager-admin-trying-reorder-rows-gets-ajax-post-500-internal-server-e",
+    "title": "Laravel Voyager-Admin: Trying reorder rows gets ajax post 500 (Internal Server Error)",
+    "sort": "activity"
+  },
+  {
+    "tags": [
+      "swift"
+    ],
+    "owner": {
+      "reputation": 217,
+      "user_id": 8310287,
+      "user_type": "registered",
+      "accept_rate": 64,
+      "profile_image": "https://www.gravatar.com/avatar/07715836fa324278e897e1646d7400f1?s=128&d=identicon&r=PG&f=1",
+      "display_name": "King",
+      "link": "https://stackoverflow.com/users/8310287/king"
+    },
+    "is_answered": false,
+    "view_count": 14,
+    "answer_count": 1,
+    "score": 0,
+    "last_activity_date": 1558195927,
+    "creation_date": 1558194989,
+    "last_edit_date": 1558195927,
+    "question_id": 56200612,
+    "link": "https://stackoverflow.com/questions/56200612/dynamic-form-from-json-input-swift",
+    "title": "Dynamic form from JSON input swift",
+    "sort": "activity"
+  },
+  {
+    "tags": [
+      "android",
+      "android-softkeyboard",
+      "emoji"
+    ],
+    "owner": {
+      "reputation": 74,
+      "user_id": 9163128,
+      "user_type": "registered",
+      "profile_image": "https://i.stack.imgur.com/PhkjI.png?s=128&g=1",
+      "display_name": "Viktor Vostrikov",
+      "link": "https://stackoverflow.com/users/9163128/viktor-vostrikov"
+    },
+    "is_answered": false,
+    "view_count": 2,
+    "answer_count": 0,
+    "score": 0,
+    "last_activity_date": 1558195927,
+    "creation_date": 1558195927,
+    "question_id": 56200729,
+    "link": "https://stackoverflow.com/questions/56200729/how-to-force-emoji-keyboard-in-android",
+    "title": "How to force emoji keyboard in android?",
+    "sort": "activity"
+  },
+  {
+    "tags": [
+      "design-patterns",
+      "flutter",
+      "callback"
+    ],
+    "owner": {
+      "reputation": 41,
+      "user_id": 5388414,
+      "user_type": "registered",
+      "accept_rate": 80,
+      "profile_image": "https://www.gravatar.com/avatar/eac0a41daaece65d420d399464a788f5?s=128&d=identicon&r=PG&f=1",
+      "display_name": "UglyBob",
+      "link": "https://stackoverflow.com/users/5388414/uglybob"
     },
     "is_answered": true,
-    "view_count": 52423,
-    "accepted_answer_id": 35991491,
-    "answer_count": 10,
-    "score": 115,
-    "last_activity_date": 1558187188,
-    "creation_date": 1457957002,
-    "last_edit_date": 1505522384,
-    "question_id": 35987055,
-    "link": "https://stackoverflow.com/questions/35987055/how-to-write-unit-testing-for-angular-2-typescript-for-private-methods-with-ja",
-    "title": "How to write unit testing for Angular 2 / TypeScript for private methods with Jasmine",
+    "view_count": 36,
+    "answer_count": 2,
+    "score": 0,
+    "last_activity_date": 1558195924,
+    "creation_date": 1558060705,
+    "question_id": 56178853,
+    "link": "https://stackoverflow.com/questions/56178853/no-context-in-callback-from-custom-widget",
+    "title": "No context in callback from custom widget",
+    "sort": "activity"
+  },
+  {
+    "tags": [
+      "python",
+      "class",
+      "object",
+      "input",
+      "persistence"
+    ],
+    "owner": {
+      "reputation": 1,
+      "user_id": 11353612,
+      "user_type": "registered",
+      "profile_image": "https://i.stack.imgur.com/M5E6C.png?s=128&g=1",
+      "display_name": "Kodeeo",
+      "link": "https://stackoverflow.com/users/11353612/kodeeo"
+    },
+    "is_answered": false,
+    "view_count": 11,
+    "answer_count": 1,
+    "score": 0,
+    "last_activity_date": 1558195917,
+    "creation_date": 1558191170,
+    "last_edit_date": 1558192203,
+    "question_id": 56200068,
+    "link": "https://stackoverflow.com/questions/56200068/how-to-make-my-program-persistent-in-python-when-i-have-user-made-objects",
+    "title": "How to make my program persistent in python, when i have user made objects?",
+    "sort": "activity"
+  },
+  {
+    "tags": [
+      "c#",
+      "asp.net-web-api",
+      "httpclient"
+    ],
+    "owner": {
+      "reputation": 443,
+      "user_id": 10339036,
+      "user_type": "registered",
+      "profile_image": "https://www.gravatar.com/avatar/15eeaa76b8617ffc4c1b8bfe93da9d2e?s=128&d=identicon&r=PG&f=1",
+      "display_name": "michasaucer",
+      "link": "https://stackoverflow.com/users/10339036/michasaucer"
+    },
+    "is_answered": false,
+    "view_count": 13,
+    "answer_count": 0,
+    "score": 0,
+    "last_activity_date": 1558195917,
+    "creation_date": 1558194633,
+    "last_edit_date": 1558195917,
+    "question_id": 56200566,
+    "link": "https://stackoverflow.com/questions/56200566/problem-with-geting-nested-list-from-webapi-by-httpclient",
+    "title": "Problem with geting nested list from WebApi by HttpClient",
+    "sort": "activity"
+  },
+  {
+    "tags": [
+      "networking",
+      "ipmi",
+      "bmc"
+    ],
+    "owner": {
+      "reputation": 3,
+      "user_id": 4958203,
+      "user_type": "registered",
+      "profile_image": "https://i.stack.imgur.com/Pc0Km.png?s=128&g=1",
+      "display_name": "Wei",
+      "link": "https://stackoverflow.com/users/4958203/wei"
+    },
+    "is_answered": false,
+    "view_count": 2,
+    "answer_count": 0,
+    "score": 0,
+    "last_activity_date": 1558195916,
+    "creation_date": 1558195916,
+    "question_id": 56200726,
+    "link": "https://stackoverflow.com/questions/56200726/is-there-a-way-to-detect-another-host-bmc-alived-via-locl-bmc",
+    "title": "Is there a way to detect another host bmc alived via locl bmc?",
+    "sort": "activity"
+  },
+  {
+    "tags": [
+      "java",
+      "hibernate",
+      "jpa",
+      "jpa-2.0",
+      "jpa-2.1"
+    ],
+    "owner": {
+      "reputation": 15,
+      "user_id": 7062808,
+      "user_type": "registered",
+      "profile_image": "https://www.gravatar.com/avatar/e064a9f8921e855fd2077ea4f9006389?s=128&d=identicon&r=PG&f=1",
+      "display_name": "StevenW",
+      "link": "https://stackoverflow.com/users/7062808/stevenw"
+    },
+    "is_answered": false,
+    "view_count": 21,
+    "answer_count": 2,
+    "score": 0,
+    "last_activity_date": 1558195913,
+    "creation_date": 1558121367,
+    "last_edit_date": 1558195913,
+    "question_id": 56192488,
+    "link": "https://stackoverflow.com/questions/56192488/why-isnt-the-foreign-key-field-of-a-many-to-one-relationship-being-set-on-inser",
+    "title": "Why isn&#39;t the foreign key field of a Many-to-One relationship being set on insert?",
+    "sort": "activity"
+  },
+  {
+    "tags": [
+      "java",
+      "spring",
+      "spring-data-jpa",
+      "spring-data-rest"
+    ],
+    "owner": {
+      "reputation": 58,
+      "user_id": 10345277,
+      "user_type": "registered",
+      "profile_image": "https://lh3.googleusercontent.com/-cT5TIlorwtE/AAAAAAAAAAI/AAAAAAAAA4c/4HvnTmU2FRE/photo.jpg?sz=128",
+      "display_name": "윤현구",
+      "link": "https://stackoverflow.com/users/10345277/%ec%9c%a4%ed%98%84%ea%b5%ac"
+    },
+    "is_answered": false,
+    "view_count": 49,
+    "answer_count": 1,
+    "score": 1,
+    "last_activity_date": 1558195909,
+    "creation_date": 1558000000,
+    "question_id": 56165623,
+    "link": "https://stackoverflow.com/questions/56165623/how-to-put-db-tables-into-properties-in-dto-using-jpa",
+    "title": "How to put db tables into properties in DTO using JPA",
+    "sort": "activity"
+  },
+  {
+    "tags": [
+      "python"
+    ],
+    "owner": {
+      "reputation": 1,
+      "user_id": 11313921,
+      "user_type": "registered",
+      "profile_image": "https://www.gravatar.com/avatar/5a49d63435b8ae91107e9de4d3f5ab0a?s=128&d=identicon&r=PG&f=1",
+      "display_name": "Hdidev",
+      "link": "https://stackoverflow.com/users/11313921/hdidev"
+    },
+    "is_answered": false,
+    "view_count": 10,
+    "answer_count": 0,
+    "score": 0,
+    "last_activity_date": 1558195907,
+    "creation_date": 1558195821,
+    "last_edit_date": 1558195907,
+    "question_id": 56200714,
+    "link": "https://stackoverflow.com/questions/56200714/invalid-syntax-concerning-a-mathematical-equation",
+    "title": "invalid syntax concerning a mathematical equation",
+    "sort": "activity"
+  },
+  {
+    "tags": [
+      "python",
+      "python-3.x",
+      "algorithm",
+      "bit-manipulation",
+      "bit"
+    ],
+    "owner": {
+      "reputation": 66,
+      "user_id": 10495398,
+      "user_type": "registered",
+      "profile_image": "https://www.gravatar.com/avatar/cdcf80b0748e6322b05742b5f931a39f?s=128&d=identicon&r=PG&f=1",
+      "display_name": "d_darric",
+      "link": "https://stackoverflow.com/users/10495398/d-darric"
+    },
+    "is_answered": true,
+    "view_count": 53,
+    "accepted_answer_id": 56196320,
+    "answer_count": 4,
+    "score": 1,
+    "last_activity_date": 1558195901,
+    "creation_date": 1558101584,
+    "last_edit_date": 1558185331,
+    "question_id": 56187994,
+    "link": "https://stackoverflow.com/questions/56187994/how-to-convert-negative-bit-represented-numbers-to-their-actual-negative-int-val",
+    "title": "How to convert negative bit-represented numbers to their actual negative int value in python3?",
+    "sort": "activity"
+  },
+  {
+    "tags": [
+      "java",
+      "go",
+      "digital-signature",
+      "x509"
+    ],
+    "owner": {
+      "reputation": 19,
+      "user_id": 10407203,
+      "user_type": "registered",
+      "profile_image": "https://lh6.googleusercontent.com/-sUaCdSM-aLY/AAAAAAAAAAI/AAAAAAAAAAA/AAN31DXx_aDQ1MlPNzgWvEss0bfN12Om_w/mo/photo.jpg?sz=128",
+      "display_name": "Miguel Reis",
+      "link": "https://stackoverflow.com/users/10407203/miguel-reis"
+    },
+    "is_answered": false,
+    "view_count": 33,
+    "answer_count": 1,
+    "score": 2,
+    "last_activity_date": 1558195900,
+    "creation_date": 1558173522,
+    "last_edit_date": 1558173705,
+    "question_id": 56197892,
+    "link": "https://stackoverflow.com/questions/56197892/java-verify-signature-created-in-golang",
+    "title": "Java - Verify signature created in Golang",
+    "sort": "activity"
+  },
+  {
+    "tags": [
+      "javascript",
+      "arrays",
+      "for-loop",
+      "if-statement"
+    ],
+    "owner": {
+      "reputation": 12,
+      "user_id": 6203246,
+      "user_type": "registered",
+      "profile_image": "https://graph.facebook.com/1744238872487195/picture?type=large",
+      "display_name": "Zeroone",
+      "link": "https://stackoverflow.com/users/6203246/zeroone"
+    },
+    "is_answered": false,
+    "view_count": 12,
+    "answer_count": 2,
+    "score": 0,
+    "last_activity_date": 1558195895,
+    "creation_date": 1558194834,
+    "last_edit_date": 1558195504,
+    "question_id": 56200595,
+    "link": "https://stackoverflow.com/questions/56200595/how-to-find-count-of-elements-by-class-and-calculate-on-hover",
+    "title": "How to find count of elements by class and calculate on hover?",
+    "sort": "activity"
+  },
+  {
+    "tags": [
+      "php",
+      "laravel",
+      "laravel-blade",
+      "url-parameters",
+      "get-request"
+    ],
+    "owner": {
+      "reputation": 159,
+      "user_id": 5544603,
+      "user_type": "registered",
+      "accept_rate": 100,
+      "profile_image": "https://graph.facebook.com/974056565997789/picture?type=large",
+      "display_name": "Luiz Wynne",
+      "link": "https://stackoverflow.com/users/5544603/luiz-wynne"
+    },
+    "is_answered": false,
+    "view_count": 22,
+    "answer_count": 1,
+    "score": 0,
+    "last_activity_date": 1558195893,
+    "creation_date": 1558187980,
+    "question_id": 56199653,
+    "link": "https://stackoverflow.com/questions/56199653/laravel-get-unamed-get-parameter-id-from-url",
+    "title": "Laravel get unamed &quot;GET&quot; parameter id from URL",
+    "sort": "activity"
+  },
+  {
+    "tags": [
+      "c#",
+      "wpf"
+    ],
+    "owner": {
+      "reputation": 1,
+      "user_id": 11345930,
+      "user_type": "registered",
+      "profile_image": "https://www.gravatar.com/avatar/837bfdead1d245983a2d02894cb15098?s=128&d=identicon&r=PG&f=1",
+      "display_name": "pats",
+      "link": "https://stackoverflow.com/users/11345930/pats"
+    },
+    "is_answered": false,
+    "view_count": 3,
+    "answer_count": 0,
+    "score": 0,
+    "last_activity_date": 1558195892,
+    "creation_date": 1558195892,
+    "question_id": 56200722,
+    "link": "https://stackoverflow.com/questions/56200722/how-to-add-children-to-a-specific-to-several-grids",
+    "title": "How to add children to a specific to several grids",
+    "sort": "activity"
+  },
+  {
+    "tags": [
+      "java",
+      "postgresql",
+      "jdbc",
+      "apache-commons-dbcp"
+    ],
+    "owner": {
+      "reputation": 748,
+      "user_id": 5201008,
+      "user_type": "registered",
+      "accept_rate": 56,
+      "profile_image": "https://lh4.googleusercontent.com/-4UCMKanTKas/AAAAAAAAAAI/AAAAAAAAAMc/v5v_hyLn1JI/photo.jpg?sz=128",
+      "display_name": "Nirav Patel",
+      "link": "https://stackoverflow.com/users/5201008/nirav-patel"
+    },
+    "is_answered": true,
+    "view_count": 10972,
+    "answer_count": 2,
+    "score": 10,
+    "last_activity_date": 1558195890,
+    "creation_date": 1494466734,
+    "last_edit_date": 1494467511,
+    "question_id": 43905119,
+    "link": "https://stackoverflow.com/questions/43905119/postgres-error-method-org-postgresql-jdbc-pgconnection-createclob-is-not-imple",
+    "title": "Postgres Error method org.postgresql.jdbc.PgConnection.createClob() is not implemented",
+    "sort": "activity"
+  },
+  {
+    "tags": [
+      "json",
+      "talend"
+    ],
+    "owner": {
+      "reputation": 603,
+      "user_id": 1103801,
+      "user_type": "registered",
+      "accept_rate": 70,
+      "profile_image": "https://www.gravatar.com/avatar/11f0b072b3e2edd0b04e7c7b63a5ce4a?s=128&d=identicon&r=PG&f=1",
+      "display_name": "adam",
+      "link": "https://stackoverflow.com/users/1103801/adam"
+    },
+    "is_answered": false,
+    "view_count": 2,
+    "answer_count": 0,
+    "score": 0,
+    "last_activity_date": 1558195879,
+    "creation_date": 1558195879,
+    "question_id": 56200721,
+    "link": "https://stackoverflow.com/questions/56200721/json-path-use-for-key-name-in-talend",
+    "title": "json path use for key name in talend",
+    "sort": "activity"
+  },
+  {
+    "tags": [
+      "eloquent",
+      "many-to-many",
+      "pivot-table",
+      "where-clause",
+      "laravel-5.7"
+    ],
+    "owner": {
+      "reputation": 98,
+      "user_id": 9994747,
+      "user_type": "registered",
+      "profile_image": "https://i.stack.imgur.com/ZzPne.png?s=128&g=1",
+      "display_name": "Justin Schwimmer",
+      "link": "https://stackoverflow.com/users/9994747/justin-schwimmer"
+    },
+    "is_answered": false,
+    "view_count": 4,
+    "answer_count": 0,
+    "score": 0,
+    "last_activity_date": 1558195874,
+    "creation_date": 1558195874,
+    "question_id": 56200720,
+    "link": "https://stackoverflow.com/questions/56200720/laravel-eloquent-many-to-many-query-producing-extra-null-where-clause",
+    "title": "Laravel Eloquent Many-To-Many Query Producing Extra null WHERE clause",
+    "sort": "activity"
+  },
+  {
+    "tags": [
+      "java",
+      "hibernate",
+      "jpa",
+      "spring-data-jpa",
+      "embeddable"
+    ],
+    "owner": {
+      "reputation": 1441,
+      "user_id": 840546,
+      "user_type": "registered",
+      "accept_rate": 66,
+      "profile_image": "https://www.gravatar.com/avatar/cb7c6eb17b2cb81e18ae39b8620833cb?s=128&d=identicon&r=PG",
+      "display_name": "Dexters",
+      "link": "https://stackoverflow.com/users/840546/dexters"
+    },
+    "is_answered": false,
+    "view_count": 11,
+    "answer_count": 0,
+    "score": 0,
+    "last_activity_date": 1558195873,
+    "creation_date": 1558192612,
+    "last_edit_date": 1558195873,
+    "question_id": 56200263,
+    "link": "https://stackoverflow.com/questions/56200263/auto-generated-id-not-cascading-on-embeddedid-in-child-entity-in-hibernate",
+    "title": "Auto generated id not cascading on EmbeddedId in child entity in Hibernate",
+    "sort": "activity"
+  },
+  {
+    "tags": [
+      "swift",
+      "uitableview",
+      "refresh"
+    ],
+    "owner": {
+      "reputation": 8,
+      "user_id": 11418743,
+      "user_type": "registered",
+      "profile_image": "https://www.gravatar.com/avatar/92cb139a4b5d71f64c8e9da431e9b75d?s=128&d=identicon&r=PG&f=1",
+      "display_name": "CagkanT.",
+      "link": "https://stackoverflow.com/users/11418743/cagkant"
+    },
+    "is_answered": false,
+    "view_count": 6,
+    "answer_count": 0,
+    "score": 0,
+    "last_activity_date": 1558195871,
+    "creation_date": 1558195378,
+    "last_edit_date": 1558195871,
+    "question_id": 56200654,
+    "link": "https://stackoverflow.com/questions/56200654/how-to-refresh-data-when-screen-is-full",
+    "title": "How to refresh data when screen is full?",
     "sort": "activity"
   },
   {
@@ -780,7 +798,7 @@
       "branch-prediction"
     ],
     "owner": {
-      "reputation": 305664,
+      "reputation": 305689,
       "user_id": 87234,
       "user_type": "registered",
       "accept_rate": 100,
@@ -789,11 +807,11 @@
       "link": "https://stackoverflow.com/users/87234/gmannickg"
     },
     "is_answered": true,
-    "view_count": 1346799,
+    "view_count": 1349994,
     "protected_date": 1399067470,
     "accepted_answer_id": 11227902,
     "answer_count": 22,
-    "score": 22980,
+    "score": 22985,
     "last_activity_date": 1557574272,
     "creation_date": 1340805096,
     "last_edit_date": 1522083910,
@@ -816,7 +834,7 @@
       "link": "https://stackoverflow.com/users/89904/hamza-yerlikaya"
     },
     "is_answered": true,
-    "view_count": 7877924,
+    "view_count": 7877989,
     "protected_date": 1370840488,
     "accepted_answer_id": 927386,
     "answer_count": 78,
@@ -837,7 +855,7 @@
       "git-remote"
     ],
     "owner": {
-      "reputation": 278030,
+      "reputation": 278045,
       "user_id": 95592,
       "user_type": "registered",
       "accept_rate": 77,
@@ -846,11 +864,11 @@
       "link": "https://stackoverflow.com/users/95592/matthew-rankin"
     },
     "is_answered": true,
-    "view_count": 6861792,
+    "view_count": 6861986,
     "protected_date": 1358718496,
     "accepted_answer_id": 2003515,
     "answer_count": 38,
-    "score": 15147,
+    "score": 15148,
     "last_activity_date": 1557700670,
     "creation_date": 1262653935,
     "last_edit_date": 1556823078,
@@ -875,7 +893,7 @@
       "link": "https://stackoverflow.com/users/6068/pupeno"
     },
     "is_answered": true,
-    "view_count": 2535730,
+    "view_count": 2535752,
     "protected_date": 1362879044,
     "accepted_answer_id": 292359,
     "answer_count": 40,
@@ -895,7 +913,7 @@
       "content-type"
     ],
     "owner": {
-      "reputation": 122320,
+      "reputation": 122330,
       "user_id": 12870,
       "user_type": "registered",
       "accept_rate": 63,
@@ -904,7 +922,7 @@
       "link": "https://stackoverflow.com/users/12870/oli"
     },
     "is_answered": true,
-    "view_count": 2465443,
+    "view_count": 2465498,
     "protected_date": 1435276338,
     "accepted_answer_id": 477819,
     "answer_count": 34,
@@ -935,7 +953,7 @@
       "link": "https://stackoverflow.com/users/18300/alex-s"
     },
     "is_answered": true,
-    "view_count": 2004659,
+    "view_count": 2004698,
     "protected_date": 1360547307,
     "accepted_answer_id": 231855,
     "answer_count": 38,
@@ -956,7 +974,7 @@
       "standards-compliance"
     ],
     "owner": {
-      "reputation": 305664,
+      "reputation": 305689,
       "user_id": 87234,
       "user_type": "registered",
       "accept_rate": 100,
@@ -965,7 +983,7 @@
       "link": "https://stackoverflow.com/users/87234/gmannickg"
     },
     "is_answered": true,
-    "view_count": 710388,
+    "view_count": 710401,
     "protected_date": 1297320482,
     "accepted_answer_id": 1642035,
     "answer_count": 21,
@@ -996,7 +1014,7 @@
       "link": "https://stackoverflow.com/users/14069/paxos1977"
     },
     "is_answered": true,
-    "view_count": 2597146,
+    "view_count": 2597200,
     "protected_date": 1359649207,
     "accepted_answer_id": 348234,
     "answer_count": 34,
@@ -1025,7 +1043,7 @@
       "link": "https://stackoverflow.com/users/44984/venkatachalam"
     },
     "is_answered": true,
-    "view_count": 5655279,
+    "view_count": 5655392,
     "protected_date": 1447333882,
     "accepted_answer_id": 506004,
     "answer_count": 58,
@@ -1056,7 +1074,7 @@
       "link": "https://stackoverflow.com/users/7473/laurie-young"
     },
     "is_answered": true,
-    "view_count": 2377235,
+    "view_count": 2377249,
     "protected_date": 1364934455,
     "accepted_answer_id": 179147,
     "answer_count": 27,
@@ -1079,7 +1097,7 @@
       "closures"
     ],
     "owner": {
-      "reputation": 366125,
+      "reputation": 366140,
       "user_id": 9951,
       "user_type": "registered",
       "accept_rate": 78,
@@ -1088,7 +1106,7 @@
       "link": "https://stackoverflow.com/users/9951/e-satis"
     },
     "is_answered": true,
-    "view_count": 1339334,
+    "view_count": 1339351,
     "protected_date": 1316450131,
     "accepted_answer_id": 111111,
     "answer_count": 86,
@@ -1120,7 +1138,7 @@
       "link": "https://stackoverflow.com/users/13161/mattshane"
     },
     "is_answered": true,
-    "view_count": 1397988,
+    "view_count": 1398009,
     "protected_date": 1315942395,
     "accepted_answer_id": 80113,
     "answer_count": 25,
@@ -1148,7 +1166,7 @@
       "link": "https://stackoverflow.com/users/338204/forrest"
     },
     "is_answered": true,
-    "view_count": 2472535,
+    "view_count": 2472552,
     "protected_date": 1498428177,
     "accepted_answer_id": 6591218,
     "answer_count": 32,
@@ -1178,7 +1196,7 @@
       "link": "https://stackoverflow.com/users/131679/gramm"
     },
     "is_answered": true,
-    "view_count": 5496206,
+    "view_count": 5496279,
     "protected_date": 1351859467,
     "accepted_answer_id": 1789952,
     "answer_count": 3,
@@ -1210,7 +1228,7 @@
       "link": "https://stackoverflow.com/users/21709/philip-morton"
     },
     "is_answered": true,
-    "view_count": 2423150,
+    "view_count": 2423184,
     "protected_date": 1334286591,
     "accepted_answer_id": 178450,
     "answer_count": 53,
@@ -1240,7 +1258,7 @@
       "link": "https://stackoverflow.com/users/25847/mark-rogers"
     },
     "is_answered": true,
-    "view_count": 1016339,
+    "view_count": 1016347,
     "protected_date": 1370840538,
     "accepted_answer_id": 1335881,
     "answer_count": 26,
@@ -1268,7 +1286,7 @@
       "link": "https://stackoverflow.com/users/364969/walker"
     },
     "is_answered": true,
-    "view_count": 5705133,
+    "view_count": 5705261,
     "protected_date": 1418673600,
     "accepted_answer_id": 5767357,
     "answer_count": 79,
@@ -1297,7 +1315,7 @@
       "link": "https://stackoverflow.com/users/456584/user456584"
     },
     "is_answered": true,
-    "view_count": 478157,
+    "view_count": 478162,
     "protected_date": 1360160534,
     "accepted_answer_id": 8333464,
     "answer_count": 9,
@@ -1327,7 +1345,7 @@
       "link": "https://stackoverflow.com/users/111174/crazy-serb"
     },
     "is_answered": true,
-    "view_count": 5023047,
+    "view_count": 5023147,
     "protected_date": 1506140086,
     "accepted_answer_id": 4114122,
     "answer_count": 41,
@@ -1355,7 +1373,7 @@
       "link": "https://stackoverflow.com/users/4105/michael-gundlach"
     },
     "is_answered": true,
-    "view_count": 1756768,
+    "view_count": 1756817,
     "protected_date": 1504847411,
     "accepted_answer_id": 244858,
     "answer_count": 48,
@@ -1385,7 +1403,7 @@
       "link": "https://stackoverflow.com/users/31569/richard-garside"
     },
     "is_answered": true,
-    "view_count": 941922,
+    "view_count": 941933,
     "protected_date": 1370840753,
     "accepted_answer_id": 336868,
     "answer_count": 37,
@@ -1414,7 +1432,7 @@
       "link": "https://stackoverflow.com/users/342235/freewind"
     },
     "is_answered": true,
-    "view_count": 597743,
+    "view_count": 597749,
     "protected_date": 1433866025,
     "accepted_answer_id": 6841479,
     "answer_count": 9,
@@ -1434,7 +1452,7 @@
       "git-branch"
     ],
     "owner": {
-      "reputation": 133952,
+      "reputation": 133957,
       "user_id": 4883,
       "user_type": "registered",
       "accept_rate": 82,
@@ -1443,7 +1461,7 @@
       "link": "https://stackoverflow.com/users/4883/readonly"
     },
     "is_answered": true,
-    "view_count": 2029642,
+    "view_count": 2029654,
     "protected_date": 1389656959,
     "accepted_answer_id": 64966,
     "answer_count": 34,
@@ -1474,7 +1492,7 @@
       "link": "https://stackoverflow.com/users/98046/jakub-troszok"
     },
     "is_answered": true,
-    "view_count": 3757545,
+    "view_count": 3757651,
     "protected_date": 1380552735,
     "accepted_answer_id": 8888015,
     "answer_count": 39,
@@ -1503,7 +1521,7 @@
       "link": "https://stackoverflow.com/users/179467/juri-glass"
     },
     "is_answered": true,
-    "view_count": 4672742,
+    "view_count": 4672787,
     "protected_date": 1368094052,
     "accepted_answer_id": 1783426,
     "answer_count": 26,
@@ -1532,7 +1550,7 @@
       "link": "https://stackoverflow.com/users/4315/user4315"
     },
     "is_answered": true,
-    "view_count": 1788123,
+    "view_count": 1788160,
     "protected_date": 1308938923,
     "answer_count": 79,
     "community_owned_date": 1347646975,
@@ -1563,7 +1581,7 @@
       "link": "https://stackoverflow.com/users/571/lance-fisher"
     },
     "is_answered": true,
-    "view_count": 972562,
+    "view_count": 972574,
     "protected_date": 1335106652,
     "accepted_answer_id": 7077,
     "answer_count": 61,
@@ -1595,7 +1613,7 @@
       "link": "https://stackoverflow.com/users/44990/bcasp"
     },
     "is_answered": true,
-    "view_count": 1626213,
+    "view_count": 1626252,
     "protected_date": 1349355201,
     "accepted_answer_id": 359509,
     "answer_count": 49,
@@ -1627,7 +1645,7 @@
       "link": "https://stackoverflow.com/users/235885/capecrawler"
     },
     "is_answered": true,
-    "view_count": 1156250,
+    "view_count": 1156276,
     "protected_date": 1303421057,
     "accepted_answer_id": 2025541,
     "answer_count": 34,
@@ -1656,7 +1674,7 @@
       "link": "https://stackoverflow.com/users/27929/johnstok"
     },
     "is_answered": true,
-    "view_count": 1954121,
+    "view_count": 1954155,
     "protected_date": 1319135227,
     "accepted_answer_id": 208106,
     "answer_count": 38,
@@ -1671,153 +1689,160 @@
   },
   {
     "tags": [
-      "javascript",
-      "html",
-      "input"
-    ],
-    "owner": {
-      "reputation": 86,
-      "user_id": 10609373,
-      "user_type": "registered",
-      "profile_image": "https://i.stack.imgur.com/7TYhy.png?s=128&g=1",
-      "display_name": "Dorbagna",
-      "link": "https://stackoverflow.com/users/10609373/dorbagna"
-    },
-    "is_answered": true,
-    "view_count": 37,
-    "accepted_answer_id": 56199464,
-    "answer_count": 2,
-    "score": 0,
-    "last_activity_date": 1558186862,
-    "creation_date": 1558185303,
-    "last_edit_date": 1558186231,
-    "question_id": 56199299,
-    "link": "https://stackoverflow.com/questions/56199299/input-is-not-deletable",
-    "title": "Input is not deletable",
-    "sort": "hot"
-  },
-  {
-    "tags": [
-      "c#"
-    ],
-    "owner": {
-      "reputation": 1,
-      "user_id": 11391206,
-      "user_type": "registered",
-      "profile_image": "https://www.gravatar.com/avatar/225b8d814d690f780596dac709ef3a9f?s=128&d=identicon&r=PG&f=1",
-      "display_name": "Tony P.",
-      "link": "https://stackoverflow.com/users/11391206/tony-p"
-    },
-    "is_answered": true,
-    "view_count": 25,
-    "answer_count": 2,
-    "score": 0,
-    "last_activity_date": 1558185645,
-    "creation_date": 1558184684,
-    "last_edit_date": 1558185645,
-    "question_id": 56199207,
-    "link": "https://stackoverflow.com/questions/56199207/how-to-build-a-string-comprising-all-of-objects-in-a-list-and-return-it-in-an-ov",
-    "title": "How to build a string comprising all of objects in a list and return it in an override ToString()?",
-    "sort": "hot"
-  },
-  {
-    "tags": [
-      "c"
+      "javascript"
     ],
     "owner": {
       "reputation": 3,
-      "user_id": 11324540,
+      "user_id": 3788226,
       "user_type": "registered",
-      "profile_image": "https://www.gravatar.com/avatar/a0c33bd783234d407f0cc36803f6a400?s=128&d=identicon&r=PG&f=1",
-      "display_name": "Minara",
-      "link": "https://stackoverflow.com/users/11324540/minara"
-    },
-    "is_answered": true,
-    "view_count": 27,
-    "accepted_answer_id": 56199427,
-    "answer_count": 1,
-    "score": 0,
-    "last_activity_date": 1558186254,
-    "creation_date": 1558186120,
-    "question_id": 56199406,
-    "link": "https://stackoverflow.com/questions/56199406/whats-the-difference-between-these-two-operations",
-    "title": "What&#39;s the difference between these two operations?",
-    "sort": "hot"
-  },
-  {
-    "tags": [
-      "sql",
-      "sql-server"
-    ],
-    "owner": {
-      "reputation": 55,
-      "user_id": 9548335,
-      "user_type": "registered",
-      "profile_image": "https://www.gravatar.com/avatar/e302f65d9941b86422523086723a19cd?s=128&d=identicon&r=PG&f=1",
-      "display_name": "alqueen",
-      "link": "https://stackoverflow.com/users/9548335/alqueen"
-    },
-    "is_answered": true,
-    "view_count": 20,
-    "accepted_answer_id": 56199297,
-    "answer_count": 1,
-    "score": 0,
-    "last_activity_date": 1558185279,
-    "creation_date": 1558184679,
-    "last_edit_date": 1558185120,
-    "question_id": 56199205,
-    "link": "https://stackoverflow.com/questions/56199205/how-to-get-year-numbers-in-columns",
-    "title": "How to get year numbers in columns",
-    "sort": "hot"
-  },
-  {
-    "tags": [
-      "python",
-      "python-3.x"
-    ],
-    "owner": {
-      "reputation": 17,
-      "user_id": 11163819,
-      "user_type": "registered",
-      "profile_image": "https://graph.facebook.com/2245647455655835/picture?type=large",
-      "display_name": "Brahma Reddy",
-      "link": "https://stackoverflow.com/users/11163819/brahma-reddy"
+      "profile_image": "https://graph.facebook.com/100003376425701/picture?type=large",
+      "display_name": "LucasGrizante",
+      "link": "https://stackoverflow.com/users/3788226/lucasgrizante"
     },
     "is_answered": false,
-    "view_count": 30,
-    "answer_count": 2,
+    "view_count": 31,
+    "answer_count": 0,
     "score": 0,
-    "last_activity_date": 1558185790,
-    "creation_date": 1558184472,
-    "last_edit_date": 1558185502,
-    "question_id": 56199184,
-    "link": "https://stackoverflow.com/questions/56199184/i-need-replace-the-index-positions-based-on-list-without-hard-code",
-    "title": "i need replace the index positions based on list without hard code",
+    "last_activity_date": 1558195422,
+    "creation_date": 1558195422,
+    "question_id": 56200665,
+    "link": "https://stackoverflow.com/questions/56200665/how-can-i-use-map-when-key-are-objects",
+    "title": "How can I use Map when Key are objects?",
     "sort": "hot"
   },
   {
     "tags": [
-      "python",
-      "python-2.7"
+      "r"
     ],
     "owner": {
       "reputation": 1,
-      "user_id": 11476460,
+      "user_id": 11489179,
       "user_type": "registered",
-      "profile_image": "https://lh5.googleusercontent.com/-EUOC0aBcV_E/AAAAAAAAAAI/AAAAAAAAAA8/hxLoOZm1rbM/photo.jpg?sz=128",
-      "display_name": "David G.",
-      "link": "https://stackoverflow.com/users/11476460/david-g"
+      "profile_image": "https://lh3.googleusercontent.com/-2GJ91JsSrmc/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdQvKmv1fwX-crSs0uJBiPEq27PEw/mo/photo.jpg?sz=128",
+      "display_name": "shafi Q",
+      "link": "https://stackoverflow.com/users/11489179/shafi-q"
     },
     "is_answered": false,
-    "view_count": 25,
+    "view_count": 14,
+    "answer_count": 0,
+    "score": 0,
+    "last_activity_date": 1558195612,
+    "creation_date": 1558195275,
+    "last_edit_date": 1558195612,
+    "question_id": 56200642,
+    "link": "https://stackoverflow.com/questions/56200642/rename-column-with-another-columns-first-row-items-and-delete-successive-column",
+    "title": "Rename column with another column&#39;s first row items and delete successive columns",
+    "sort": "hot"
+  },
+  {
+    "tags": [
+      "c++",
+      "vector",
+      "std",
+      "shared-ptr"
+    ],
+    "owner": {
+      "reputation": 1,
+      "user_id": 6595850,
+      "user_type": "registered",
+      "profile_image": "https://lh3.googleusercontent.com/-XzHwILivEfk/AAAAAAAAAAI/AAAAAAAAACk/EU50-9En-0M/photo.jpg?sz=128",
+      "display_name": "Aleksandar Mrsic",
+      "link": "https://stackoverflow.com/users/6595850/aleksandar-mrsic"
+    },
+    "is_answered": false,
+    "view_count": 14,
+    "answer_count": 0,
+    "score": -1,
+    "last_activity_date": 1558195216,
+    "creation_date": 1558195216,
+    "question_id": 56200635,
+    "link": "https://stackoverflow.com/questions/56200635/how-to-fix-undeclared-identifier-in-stdvectorstdshared-ptrlineparser",
+    "title": "How to fix &#39;undeclared identifier&#39; in std::vector&lt;std::shared_ptr&lt;LineParser&gt;&gt;",
+    "sort": "hot"
+  },
+  {
+    "tags": [
+      "c++",
+      "pointers",
+      "strict-aliasing"
+    ],
+    "owner": {
+      "reputation": 961,
+      "user_id": 7610883,
+      "user_type": "registered",
+      "accept_rate": 25,
+      "profile_image": "https://www.gravatar.com/avatar/d5b2f292c46f7ef87ab8a0adb47154fa?s=128&d=identicon&r=PG&f=1",
+      "display_name": "cmdLP",
+      "link": "https://stackoverflow.com/users/7610883/cmdlp"
+    },
+    "is_answered": true,
+    "view_count": 58,
+    "answer_count": 2,
+    "score": 1,
+    "last_activity_date": 1558195546,
+    "creation_date": 1558189182,
+    "last_edit_date": 1558195546,
+    "question_id": 56199812,
+    "link": "https://stackoverflow.com/questions/56199812/accessing-pointer-variable-as-a-pointer-to-a-different-type-in-c",
+    "title": "Accessing pointer variable as a pointer to a different type in C++",
+    "sort": "hot"
+  },
+  {
+    "tags": [
+      "c",
+      "linux",
+      "assembly",
+      "x86",
+      "att"
+    ],
+    "owner": {
+      "reputation": 4932,
+      "user_id": 1804027,
+      "user_type": "registered",
+      "accept_rate": 44,
+      "profile_image": "https://i.stack.imgur.com/iQtNF.jpg?s=128&g=1",
+      "display_name": "Piotrek",
+      "link": "https://stackoverflow.com/users/1804027/piotrek"
+    },
+    "is_answered": true,
+    "view_count": 21,
     "answer_count": 1,
     "score": 0,
-    "last_activity_date": 1558185878,
-    "creation_date": 1558185661,
-    "last_edit_date": 1558185855,
-    "question_id": 56199345,
-    "link": "https://stackoverflow.com/questions/56199345/how-to-turn-a-string-of-an-object-inctance-into-the-object",
-    "title": "How to turn a string of an object inctance into the object?",
+    "last_activity_date": 1558195106,
+    "creation_date": 1558192375,
+    "last_edit_date": 1558195106,
+    "question_id": 56200229,
+    "link": "https://stackoverflow.com/questions/56200229/measuring-time-difference-using-rdtsc-results-too-large",
+    "title": "Measuring time difference using RDTSC - results too large",
+    "sort": "hot"
+  },
+  {
+    "tags": [
+      "python",
+      "regex",
+      "django",
+      "string-comparison",
+      "regex-greedy"
+    ],
+    "owner": {
+      "reputation": 43,
+      "user_id": 5936018,
+      "user_type": "registered",
+      "accept_rate": 0,
+      "profile_image": "https://i.stack.imgur.com/PrqdO.jpg?s=128&g=1",
+      "display_name": "Arash",
+      "link": "https://stackoverflow.com/users/5936018/arash"
+    },
+    "is_answered": true,
+    "view_count": 36,
+    "answer_count": 2,
+    "score": -1,
+    "last_activity_date": 1558195820,
+    "creation_date": 1558192631,
+    "last_edit_date": 1558193166,
+    "question_id": 56200268,
+    "link": "https://stackoverflow.com/questions/56200268/how-to-compare-two-string-with-optional-characters",
+    "title": "How to Compare Two String With Optional Characters?",
     "sort": "hot"
   },
   {
@@ -1825,291 +1850,132 @@
       "c++"
     ],
     "owner": {
-      "reputation": 1,
-      "user_id": 11520484,
+      "reputation": 16,
+      "user_id": 11206432,
       "user_type": "registered",
-      "profile_image": "https://lh5.googleusercontent.com/-dAezh_40Wbs/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdqHud0J2VtaNWoIFaeltQGd6qSdg/mo/photo.jpg?sz=128",
-      "display_name": "Saad Naeem",
-      "link": "https://stackoverflow.com/users/11520484/saad-naeem"
+      "profile_image": "https://lh5.googleusercontent.com/-JBVD4mxfz1o/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rfij5U8HRErUzW7dm0nnTquvlnCaQ/mo/photo.jpg?sz=128",
+      "display_name": "Nelson McCullough",
+      "link": "https://stackoverflow.com/users/11206432/nelson-mccullough"
     },
-    "is_answered": false,
-    "view_count": 30,
-    "closed_date": 1558186417,
-    "answer_count": 0,
-    "score": -5,
-    "last_activity_date": 1558186140,
-    "creation_date": 1558185736,
-    "last_edit_date": 1558186140,
-    "question_id": 56199356,
-    "link": "https://stackoverflow.com/questions/56199356/cannot-convert-student-to-student-for-argument-1-to-student-hightscor",
-    "closed_reason": "unclear what you&#39;re asking",
-    "title": "cannot convert &#39;student**&#39; to &#39;student*&#39; for argument &#39;1&#39; to &#39;student* hightScorer(student*, int)&#39;",
-    "sort": "hot"
-  },
-  {
-    "tags": [
-      "python",
-      "python-3.x",
-      "pycharm"
-    ],
-    "owner": {
-      "reputation": 88,
-      "user_id": 7386117,
-      "user_type": "registered",
-      "profile_image": "https://www.gravatar.com/avatar/d77f5ec2459395810a5cf9d6c696e953?s=128&d=identicon&r=PG&f=1",
-      "display_name": "Michael Scott Perkins",
-      "link": "https://stackoverflow.com/users/7386117/michael-scott-perkins"
-    },
-    "is_answered": false,
+    "is_answered": true,
     "view_count": 22,
-    "answer_count": 1,
-    "score": 1,
-    "last_activity_date": 1558185875,
-    "creation_date": 1558185105,
-    "last_edit_date": 1558185448,
-    "question_id": 56199279,
-    "link": "https://stackoverflow.com/questions/56199279/why-does-the-python-function-typethis-is-a-string-return-no-results-in-th",
-    "title": "Why does the Python function: type(&quot;This is a string&#39;) - return no results in the PyCharm IDE, but it returns &lt;class &#39;str&#39;&gt; in IDLE and other editors?",
-    "sort": "hot"
-  },
-  {
-    "tags": [
-      "python",
-      "pandas"
-    ],
-    "owner": {
-      "reputation": 519,
-      "user_id": 1797250,
-      "user_type": "registered",
-      "accept_rate": 88,
-      "profile_image": "https://www.gravatar.com/avatar/934631698bf573a7adca86c8703a280a?s=128&d=identicon&r=PG",
-      "display_name": "Student",
-      "link": "https://stackoverflow.com/users/1797250/student"
-    },
-    "is_answered": true,
-    "view_count": 17,
-    "accepted_answer_id": 56199470,
-    "answer_count": 1,
-    "score": 0,
-    "last_activity_date": 1558186729,
-    "creation_date": 1558186265,
-    "question_id": 56199429,
-    "link": "https://stackoverflow.com/questions/56199429/how-to-get-pandas-to-act-like-ms-excel-with-cell-arithmetic",
-    "title": "How to get pandas to act like MS Excel with cell arithmetic?",
-    "sort": "hot"
-  },
-  {
-    "tags": [
-      "python",
-      "django",
-      "django-models",
-      "django-templates"
-    ],
-    "owner": {
-      "reputation": 160,
-      "user_id": 10290511,
-      "user_type": "registered",
-      "profile_image": "https://www.gravatar.com/avatar/c53833521f6fd45a67f7c75670782209?s=128&d=identicon&r=PG&f=1",
-      "display_name": "Jack022",
-      "link": "https://stackoverflow.com/users/10290511/jack022"
-    },
-    "is_answered": true,
-    "view_count": 13,
-    "accepted_answer_id": 56199365,
     "answer_count": 2,
-    "score": 0,
-    "last_activity_date": 1558186141,
-    "creation_date": 1558185254,
-    "last_edit_date": 1558185757,
-    "question_id": 56199293,
-    "link": "https://stackoverflow.com/questions/56199293/making-a-django-page-visible-only-to-confirmed-emails",
-    "title": "Making a Django page visible only to confirmed emails",
-    "sort": "hot"
-  },
-  {
-    "tags": [
-      "c",
-      "realloc"
-    ],
-    "owner": {
-      "reputation": 8,
-      "user_id": 11520473,
-      "user_type": "registered",
-      "profile_image": "https://www.gravatar.com/avatar/884ef2a808cf98e9f67d5b8503a52aba?s=128&d=identicon&r=PG&f=1",
-      "display_name": "Benedict Dhm",
-      "link": "https://stackoverflow.com/users/11520473/benedict-dhm"
-    },
-    "is_answered": true,
-    "view_count": 20,
-    "accepted_answer_id": 56199468,
-    "answer_count": 1,
     "score": 1,
-    "last_activity_date": 1558186605,
-    "creation_date": 1558186037,
-    "last_edit_date": 1558186605,
-    "question_id": 56199395,
-    "link": "https://stackoverflow.com/questions/56199395/the-first-two-values-of-an-array-of-lists-become-null-when-i-expand-the-array",
-    "title": "The first two values of an array of lists become NULL when i expand the array",
+    "last_activity_date": 1558195612,
+    "creation_date": 1558195013,
+    "last_edit_date": 1558195375,
+    "question_id": 56200615,
+    "link": "https://stackoverflow.com/questions/56200615/utility-function-wont-initialize-in-h-file-and-define-in-main-cpp",
+    "title": "Utility function won&#39;t initialize in .h file and define in main.cpp",
     "sort": "hot"
   },
   {
     "tags": [
-      "php",
-      "html",
-      "css"
+      "linux",
+      "assembly",
+      "x86-64",
+      "shellcode"
     ],
     "owner": {
-      "reputation": 1,
-      "user_id": 11520273,
+      "reputation": 4,
+      "user_id": 11452010,
       "user_type": "registered",
-      "profile_image": "https://www.gravatar.com/avatar/ceac1174e60987ab048f0f32c23cebfd?s=128&d=identicon&r=PG&f=1",
-      "display_name": "alexgp",
-      "link": "https://stackoverflow.com/users/11520273/alexgp"
+      "profile_image": "https://www.gravatar.com/avatar/450a90d815a19647ac3e8de811ed9253?s=128&d=identicon&r=PG&f=1",
+      "display_name": "ebro",
+      "link": "https://stackoverflow.com/users/11452010/ebro"
     },
     "is_answered": false,
-    "view_count": 20,
-    "answer_count": 1,
+    "view_count": 36,
+    "answer_count": 0,
     "score": 0,
-    "last_activity_date": 1558185579,
-    "creation_date": 1558185254,
-    "question_id": 56199294,
-    "link": "https://stackoverflow.com/questions/56199294/i-have-a-problem-displaying-images-from-data-base-to-page",
-    "title": "i have a problem displaying images from data base to page",
-    "sort": "hot"
-  },
-  {
-    "tags": [
-      "javascript",
-      "reactjs",
-      "express",
-      "axios",
-      "fetch-api"
-    ],
-    "owner": {
-      "reputation": 3,
-      "user_id": 9863500,
-      "user_type": "registered",
-      "profile_image": "https://www.gravatar.com/avatar/39988cacfc3f2002cdf966dd8b20f0b6?s=128&d=identicon&r=PG&f=1",
-      "display_name": "Tesler",
-      "link": "https://stackoverflow.com/users/9863500/tesler"
-    },
-    "is_answered": true,
-    "view_count": 15,
-    "accepted_answer_id": 56199393,
-    "answer_count": 1,
-    "score": 0,
-    "last_activity_date": 1558186017,
-    "creation_date": 1558184902,
-    "last_edit_date": 1558185876,
-    "question_id": 56199245,
-    "link": "https://stackoverflow.com/questions/56199245/reactjs-and-express-with-axios-returning-404-error-message",
-    "title": "ReactJS and Express with Axios returning 404 Error message",
+    "last_activity_date": 1558195953,
+    "creation_date": 1558189192,
+    "last_edit_date": 1558195953,
+    "question_id": 56199814,
+    "link": "https://stackoverflow.com/questions/56199814/spawning-a-shell-in-linux-x86-64-assembly",
+    "title": "spawning a shell in linux x86_64 assembly",
     "sort": "hot"
   },
   {
     "tags": [
       "c#",
-      "image",
-      "list"
-    ],
-    "owner": {
-      "reputation": 1,
-      "user_id": 11511397,
-      "user_type": "registered",
-      "profile_image": "https://www.gravatar.com/avatar/178967bb81dc5837b7aaeca68e624a2d?s=128&d=identicon&r=PG&f=1",
-      "display_name": "Ica Sandu",
-      "link": "https://stackoverflow.com/users/11511397/ica-sandu"
-    },
-    "is_answered": false,
-    "view_count": 19,
-    "answer_count": 0,
-    "score": 0,
-    "last_activity_date": 1558184600,
-    "creation_date": 1558184600,
-    "question_id": 56199199,
-    "link": "https://stackoverflow.com/questions/56199199/load-all-images-from-a-file",
-    "title": "Load all images from a file",
-    "sort": "hot"
-  },
-  {
-    "tags": [
-      "javascript",
-      "reactjs",
-      "redux",
-      "react-big-calendar",
-      "getderivedstatefromprops"
-    ],
-    "owner": {
-      "reputation": 112,
-      "user_id": 9974441,
-      "user_type": "registered",
-      "profile_image": "https://lh4.googleusercontent.com/-kd1L3F5KGzA/AAAAAAAAAAI/AAAAAAAAAAA/AB6qoq2K7GCSH6BtZlvaFXfJYr8R2hpNSA/mo/photo.jpg?sz=128",
-      "display_name": "Vincent Rye",
-      "link": "https://stackoverflow.com/users/9974441/vincent-rye"
-    },
-    "is_answered": false,
-    "view_count": 19,
-    "answer_count": 0,
-    "score": 0,
-    "last_activity_date": 1558186059,
-    "creation_date": 1558186059,
-    "question_id": 56199398,
-    "link": "https://stackoverflow.com/questions/56199398/proper-way-to-merge-new-props-into-state",
-    "title": "Proper Way to merge new props into state",
-    "sort": "hot"
-  },
-  {
-    "tags": [
-      "javascript",
-      "arrays",
-      "substring",
-      "slice"
-    ],
-    "owner": {
-      "reputation": 8,
-      "user_id": 11358830,
-      "user_type": "registered",
-      "profile_image": "https://lh4.googleusercontent.com/-hD2rtRTdg3M/AAAAAAAAAAI/AAAAAAAAAXI/YupHiNuZQ4A/photo.jpg?sz=128",
-      "display_name": "James Ross Codes",
-      "link": "https://stackoverflow.com/users/11358830/james-ross-codes"
-    },
-    "is_answered": false,
-    "view_count": 18,
-    "answer_count": 0,
-    "score": 0,
-    "last_activity_date": 1558184726,
-    "creation_date": 1558184510,
-    "last_edit_date": 1558184726,
-    "question_id": 56199192,
-    "link": "https://stackoverflow.com/questions/56199192/problem-comparing-input-to-array-using-slice-function",
-    "title": "Problem comparing input to array using slice function",
-    "sort": "hot"
-  },
-  {
-    "tags": [
       "c++",
-      "opengl",
-      "glsl",
-      "glew"
+      "sockets",
+      "tcp",
+      "while-loop"
     ],
     "owner": {
-      "reputation": 1,
-      "user_id": 11520443,
+      "reputation": 13,
+      "user_id": 11500443,
       "user_type": "registered",
-      "profile_image": "https://www.gravatar.com/avatar/c4cacc9b5b7eb814157eac3dfa3370e8?s=128&d=identicon&r=PG&f=1",
-      "display_name": "Dragomir",
-      "link": "https://stackoverflow.com/users/11520443/dragomir"
+      "profile_image": "https://lh4.googleusercontent.com/-giKxei0E_gM/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rfK7apEYmT6Gh4mTbzat9rD9ph7ZQ/mo/photo.jpg?sz=128",
+      "display_name": "The Cohort",
+      "link": "https://stackoverflow.com/users/11500443/the-cohort"
+    },
+    "is_answered": false,
+    "view_count": 33,
+    "answer_count": 0,
+    "score": 0,
+    "last_activity_date": 1558194161,
+    "creation_date": 1558193742,
+    "last_edit_date": 1558194161,
+    "question_id": 56200427,
+    "link": "https://stackoverflow.com/questions/56200427/c-program-in-while-true-exists-unexpectedly",
+    "title": "C++ program in while (true) exists unexpectedly",
+    "sort": "hot"
+  },
+  {
+    "tags": [
+      "bash",
+      "environment-variables"
+    ],
+    "owner": {
+      "reputation": 180,
+      "user_id": 1772750,
+      "user_type": "registered",
+      "accept_rate": 80,
+      "profile_image": "https://www.gravatar.com/avatar/8b1f9acdf2ad630d948350d60c4de238?s=128&d=identicon&r=PG",
+      "display_name": "Hierophect",
+      "link": "https://stackoverflow.com/users/1772750/hierophect"
+    },
+    "is_answered": true,
+    "view_count": 18,
+    "accepted_answer_id": 56200496,
+    "answer_count": 2,
+    "score": 1,
+    "last_activity_date": 1558195563,
+    "creation_date": 1558192504,
+    "last_edit_date": 1558195563,
+    "question_id": 56200247,
+    "link": "https://stackoverflow.com/questions/56200247/how-does-foo-myprogram-in-bash-make-ifgetentfoo-return-true-in-c",
+    "title": "How does &quot;FOO= myprogram&quot; in bash make &quot;if(getent(&quot;FOO&quot;))&quot; return true in C?",
+    "sort": "hot"
+  },
+  {
+    "tags": [
+      "python",
+      "flask",
+      "sqlalchemy"
+    ],
+    "owner": {
+      "reputation": 547,
+      "user_id": 7862193,
+      "user_type": "registered",
+      "accept_rate": 74,
+      "profile_image": "https://i.stack.imgur.com/Db5q6.png?s=128&g=1",
+      "display_name": "Mohamed Sameer",
+      "link": "https://stackoverflow.com/users/7862193/mohamed-sameer"
     },
     "is_answered": true,
     "view_count": 14,
-    "answer_count": 1,
-    "score": 0,
-    "last_activity_date": 1558186742,
-    "creation_date": 1558185588,
-    "last_edit_date": 1558186380,
-    "question_id": 56199337,
-    "link": "https://stackoverflow.com/questions/56199337/following-code-for-loading-shaders-in-opengl-gives-a-heap-corruption-error",
-    "title": "Following code for loading shaders in openGL gives a heap corruption error",
+    "answer_count": 2,
+    "score": 1,
+    "last_activity_date": 1558195583,
+    "creation_date": 1558194653,
+    "last_edit_date": 1558195583,
+    "question_id": 56200572,
+    "link": "https://stackoverflow.com/questions/56200572/simplifying-a-pair-of-if-else-statements-around-a-flask-sqlalchemy-query",
+    "title": "Simplifying a pair of if-else statements around a Flask SqlAlchemy query",
     "sort": "hot"
   },
   {
@@ -2118,155 +1984,428 @@
     ],
     "owner": {
       "reputation": 1,
-      "user_id": 11353513,
+      "user_id": 11520866,
       "user_type": "registered",
-      "profile_image": "https://graph.facebook.com/2626942607333654/picture?type=large",
-      "display_name": "Wingemo",
-      "link": "https://stackoverflow.com/users/11353513/wingemo"
+      "profile_image": "https://lh6.googleusercontent.com/-3WEKZWRiVW0/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3reRadlcvU4h8l5mOD40kmYNBI1WPg/mo/photo.jpg?sz=128",
+      "display_name": "seceneu",
+      "link": "https://stackoverflow.com/users/11520866/seceneu"
     },
     "is_answered": false,
-    "view_count": 16,
-    "answer_count": 0,
-    "score": 0,
-    "last_activity_date": 1558185829,
-    "creation_date": 1558185829,
-    "question_id": 56199368,
-    "link": "https://stackoverflow.com/questions/56199368/why-does-javascript-create-padding-in-google-chrome",
-    "title": "Why does javascript create padding in Google Chrome?",
-    "sort": "hot"
-  },
-  {
-    "tags": [
-      "python",
-      "pandas"
-    ],
-    "owner": {
-      "reputation": 4,
-      "user_id": 11509462,
-      "user_type": "registered",
-      "profile_image": "https://lh6.googleusercontent.com/-RyeJh9GhX-w/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdndnSJVCCcwjuMHDaf7FeW_K0HTw/mo/photo.jpg?sz=128",
-      "display_name": "LLY",
-      "link": "https://stackoverflow.com/users/11509462/lly"
-    },
-    "is_answered": false,
-    "view_count": 16,
+    "view_count": 27,
     "answer_count": 1,
-    "score": -1,
-    "last_activity_date": 1558186782,
-    "creation_date": 1558184864,
-    "question_id": 56199236,
-    "link": "https://stackoverflow.com/questions/56199236/i-want-to-compare-the-values-in-pandas",
-    "title": "I want to compare the values in pandas",
+    "score": 0,
+    "last_activity_date": 1558193416,
+    "creation_date": 1558193266,
+    "question_id": 56200353,
+    "link": "https://stackoverflow.com/questions/56200353/returned-array-from-a-function-is-not-caught-in-another-function",
+    "title": "Returned array from a function is not caught in another function",
     "sort": "hot"
   },
   {
     "tags": [
       "java",
-      "android",
-      "layout-inflater",
-      "inflate"
+      "primes",
+      "long-integer"
+    ],
+    "owner": {
+      "reputation": 13,
+      "user_id": 9113127,
+      "user_type": "registered",
+      "profile_image": "https://www.gravatar.com/avatar/ff4b7870bede73bf95688d0d1eaf880b?s=128&d=identicon&r=PG&f=1",
+      "display_name": "phil330d",
+      "link": "https://stackoverflow.com/users/9113127/phil330d"
+    },
+    "is_answered": true,
+    "view_count": 21,
+    "answer_count": 1,
+    "score": -1,
+    "last_activity_date": 1558193282,
+    "creation_date": 1558192637,
+    "question_id": 56200269,
+    "link": "https://stackoverflow.com/questions/56200269/how-do-i-efficiently-generate-prime-numbers-up-until-3037000499-the-square-root",
+    "title": "How do I efficiently generate Prime Numbers up until 3037000499 (the square root of Long.MAX)?",
+    "sort": "hot"
+  },
+  {
+    "tags": [
+      "python"
     ],
     "owner": {
       "reputation": 1,
-      "user_id": 11318852,
+      "user_id": 10297088,
       "user_type": "registered",
-      "profile_image": "https://graph.facebook.com/2366357793414332/picture?type=large",
-      "display_name": "PeraDev",
-      "link": "https://stackoverflow.com/users/11318852/peradev"
+      "profile_image": "https://lh6.googleusercontent.com/-Io4wneBgW2k/AAAAAAAAAAI/AAAAAAAAAAA/APUIFaN8GxgFb4ttC0h0eqPorJSnZ84yfA/mo/photo.jpg?sz=128",
+      "display_name": "Kamil Kleina",
+      "link": "https://stackoverflow.com/users/10297088/kamil-kleina"
     },
     "is_answered": false,
-    "view_count": 16,
-    "answer_count": 0,
+    "view_count": 36,
+    "answer_count": 2,
+    "score": -2,
+    "last_activity_date": 1558194012,
+    "creation_date": 1558191849,
+    "last_edit_date": 1558193739,
+    "question_id": 56200151,
+    "link": "https://stackoverflow.com/questions/56200151/how-to-translate-lists-of-list-intro-dictionaries-of-dictionaries",
+    "title": "How to translate lists of list intro dictionaries of dictionaries?",
+    "sort": "hot"
+  },
+  {
+    "tags": [
+      "javascript",
+      "regex"
+    ],
+    "owner": {
+      "reputation": 1645,
+      "user_id": 392233,
+      "user_type": "registered",
+      "accept_rate": 78,
+      "profile_image": "https://www.gravatar.com/avatar/d1e07f7aad2dd526e9e90eeb71262809?s=128&d=identicon&r=PG&f=1",
+      "display_name": "misguided",
+      "link": "https://stackoverflow.com/users/392233/misguided"
+    },
+    "is_answered": false,
+    "view_count": 27,
+    "answer_count": 2,
     "score": -1,
-    "last_activity_date": 1558186238,
-    "creation_date": 1558185307,
-    "last_edit_date": 1558186238,
-    "question_id": 56199301,
-    "link": "https://stackoverflow.com/questions/56199301/floating-bubble-library-inflater-not-read-my-oncreate",
-    "title": "Floating Bubble Library, inflater not read my onCreate",
+    "last_activity_date": 1558195795,
+    "creation_date": 1558193264,
+    "last_edit_date": 1558194397,
+    "question_id": 56200351,
+    "link": "https://stackoverflow.com/questions/56200351/regex-to-check-for-a-character-x-places-after-another-character",
+    "title": "Regex to check for a character x places after another character",
     "sort": "hot"
   },
   {
     "tags": [
-      "javascript",
-      "python",
-      "function",
-      "this"
+      "html",
+      "css"
     ],
     "owner": {
-      "reputation": 28,
-      "user_id": 11417018,
+      "reputation": 38,
+      "user_id": 10340803,
       "user_type": "registered",
-      "profile_image": "https://lh4.googleusercontent.com/-ZI_DP7LO6_E/AAAAAAAAAAI/AAAAAAAAA2w/18D5yCet0dA/photo.jpg?sz=128",
-      "display_name": "alpersunter",
-      "link": "https://stackoverflow.com/users/11417018/alpersunter"
-    },
-    "is_answered": false,
-    "view_count": 17,
-    "answer_count": 0,
-    "score": 2,
-    "last_activity_date": 1558187191,
-    "creation_date": 1558186142,
-    "last_edit_date": 1558187191,
-    "question_id": 56199408,
-    "link": "https://stackoverflow.com/questions/56199408/do-method-calls-of-javascript-and-python-have-the-same-structure",
-    "title": "Do method calls of javascript and python have the same structure?",
-    "sort": "hot"
-  },
-  {
-    "tags": [
-      "javascript",
-      "arrays",
-      "redux",
-      "immutability",
-      "immutable.js"
-    ],
-    "owner": {
-      "reputation": 15335,
-      "user_id": 811405,
-      "user_type": "registered",
-      "accept_rate": 71,
-      "profile_image": "https://i.stack.imgur.com/aVcPB.jpg?s=128&g=1",
-      "display_name": "Can Poyrazoğlu",
-      "link": "https://stackoverflow.com/users/811405/can-poyrazo%c4%9flu"
-    },
-    "is_answered": false,
-    "view_count": 16,
-    "answer_count": 1,
-    "score": 1,
-    "last_activity_date": 1558185924,
-    "creation_date": 1558184675,
-    "question_id": 56199204,
-    "link": "https://stackoverflow.com/questions/56199204/remove-last-element-of-array-in-redux-with-immutability-helper-without-knowing-a",
-    "title": "Remove last element of array in Redux with immutability-helper without knowing array&#39;s length",
-    "sort": "hot"
-  },
-  {
-    "tags": [
-      "php",
-      "laravel",
-      "model-view-controller",
-      "eloquent"
-    ],
-    "owner": {
-      "reputation": 370,
-      "user_id": 1788771,
-      "user_type": "registered",
-      "accept_rate": 50,
-      "profile_image": "https://www.gravatar.com/avatar/66738ae415551775371fa9ed5516750b?s=128&d=identicon&r=PG",
-      "display_name": "Kaan",
-      "link": "https://stackoverflow.com/users/1788771/kaan"
+      "profile_image": "https://lh5.googleusercontent.com/-UpSdxTrjQRE/AAAAAAAAAAI/AAAAAAAAADM/yroZs92jGto/photo.jpg?sz=128",
+      "display_name": "vorkot1",
+      "link": "https://stackoverflow.com/users/10340803/vorkot1"
     },
     "is_answered": true,
-    "view_count": 12,
-    "accepted_answer_id": 56199278,
+    "view_count": 20,
+    "answer_count": 4,
+    "score": 0,
+    "last_activity_date": 1558195708,
+    "creation_date": 1558188580,
+    "last_edit_date": 1558195187,
+    "question_id": 56199738,
+    "link": "https://stackoverflow.com/questions/56199738/making-my-header-fixed-resizes-the-header-box",
+    "title": "Making my header &quot;fixed&quot; resizes the header-box",
+    "sort": "hot"
+  },
+  {
+    "tags": [
+      "python",
+      "non-type"
+    ],
+    "owner": {
+      "reputation": 8,
+      "user_id": 11520834,
+      "user_type": "registered",
+      "profile_image": "https://lh4.googleusercontent.com/-bgZ1WhqHPZE/AAAAAAAAAAI/AAAAAAAAG98/ZkdRyYn0Zso/photo.jpg?sz=128",
+      "display_name": "LiadS",
+      "link": "https://stackoverflow.com/users/11520834/liads"
+    },
+    "is_answered": true,
+    "view_count": 20,
+    "accepted_answer_id": 56200448,
+    "answer_count": 2,
+    "score": 0,
+    "last_activity_date": 1558194545,
+    "creation_date": 1558193577,
+    "question_id": 56200405,
+    "link": "https://stackoverflow.com/questions/56200405/got-an-attributeerror-when-im-call-list-count-function",
+    "title": "Got an AttributeError when i&#39;m call list.count() function",
+    "sort": "hot"
+  },
+  {
+    "tags": [
+      "r",
+      "linear-regression"
+    ],
+    "owner": {
+      "reputation": 6,
+      "user_id": 10210757,
+      "user_type": "registered",
+      "profile_image": "https://www.gravatar.com/avatar/4299cb2fc3dd7d52daf1b5c07ec4c7d7?s=128&d=identicon&r=PG&f=1",
+      "display_name": "hotdogfish",
+      "link": "https://stackoverflow.com/users/10210757/hotdogfish"
+    },
+    "is_answered": false,
+    "view_count": 24,
     "answer_count": 1,
     "score": 1,
-    "last_activity_date": 1558185791,
-    "creation_date": 1558184697,
-    "question_id": 56199211,
-    "link": "https://stackoverflow.com/questions/56199211/how-can-i-use-resource-routes-with-nested-controllers-that-have-parent-models",
-    "title": "How can I use resource routes with nested controllers (that have parent models)",
+    "last_activity_date": 1558194162,
+    "creation_date": 1558192346,
+    "last_edit_date": 1558192466,
+    "question_id": 56200221,
+    "link": "https://stackoverflow.com/questions/56200221/fit-a-linear-model-with-some-predetermined-coefficients",
+    "title": "Fit a linear model with some predetermined coefficients",
+    "sort": "hot"
+  },
+  {
+    "tags": [
+      "javascript",
+      "promise",
+      "chain"
+    ],
+    "owner": {
+      "reputation": 96,
+      "user_id": 5890071,
+      "user_type": "registered",
+      "accept_rate": 56,
+      "profile_image": "https://www.gravatar.com/avatar/48ff37ad3f2796c4d941b9c94d3053ac?s=128&d=identicon&r=PG",
+      "display_name": "Charles",
+      "link": "https://stackoverflow.com/users/5890071/charles"
+    },
+    "is_answered": false,
+    "view_count": 23,
+    "answer_count": 0,
+    "score": 0,
+    "last_activity_date": 1558194956,
+    "creation_date": 1558194714,
+    "last_edit_date": 1558194956,
+    "question_id": 56200584,
+    "link": "https://stackoverflow.com/questions/56200584/promises-are-not-resolving-in-order",
+    "title": "Promises are not resolving in order",
+    "sort": "hot"
+  },
+  {
+    "tags": [
+      "javascript",
+      "reactjs",
+      "post",
+      "cors",
+      "fetch"
+    ],
+    "owner": {
+      "reputation": 387,
+      "user_id": 7946162,
+      "user_type": "registered",
+      "accept_rate": 100,
+      "profile_image": "https://graph.facebook.com/1340641802687945/picture?type=large",
+      "display_name": "Amit Das",
+      "link": "https://stackoverflow.com/users/7946162/amit-das"
+    },
+    "is_answered": false,
+    "view_count": 24,
+    "answer_count": 1,
+    "score": 0,
+    "last_activity_date": 1558195953,
+    "creation_date": 1558193069,
+    "last_edit_date": 1558194179,
+    "question_id": 56200324,
+    "link": "https://stackoverflow.com/questions/56200324/invalid-api-token",
+    "title": "Invalid API Token",
+    "sort": "hot"
+  },
+  {
+    "tags": [
+      "android",
+      "kotlin"
+    ],
+    "owner": {
+      "reputation": 13,
+      "user_id": 11520869,
+      "user_type": "registered",
+      "profile_image": "https://lh4.googleusercontent.com/-Jezc8VGkhMY/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rewKFat_ckxRiXysNhsXgjv0g_4PA/mo/photo.jpg?sz=128",
+      "display_name": "Ghifari Akbar",
+      "link": "https://stackoverflow.com/users/11520869/ghifari-akbar"
+    },
+    "is_answered": true,
+    "view_count": 17,
+    "accepted_answer_id": 56200404,
+    "answer_count": 2,
+    "score": 2,
+    "last_activity_date": 1558194997,
+    "creation_date": 1558193382,
+    "question_id": 56200369,
+    "link": "https://stackoverflow.com/questions/56200369/what-does-this-variable-mean-inside-of-lambda-argument",
+    "title": "What does this variable mean inside of lambda argument?",
+    "sort": "hot"
+  },
+  {
+    "tags": [
+      "c#",
+      "multithreading"
+    ],
+    "owner": {
+      "reputation": 830,
+      "user_id": 1978245,
+      "user_type": "registered",
+      "accept_rate": 41,
+      "profile_image": "https://i.stack.imgur.com/jElyi.jpg?s=128&g=1",
+      "display_name": "Colin Steel",
+      "link": "https://stackoverflow.com/users/1978245/colin-steel"
+    },
+    "is_answered": true,
+    "view_count": 13,
+    "answer_count": 1,
+    "score": 0,
+    "last_activity_date": 1558192966,
+    "creation_date": 1558192489,
+    "question_id": 56200242,
+    "link": "https://stackoverflow.com/questions/56200242/thread-method-parameters-not-thread-safe",
+    "title": "Thread method parameters not thread safe",
+    "sort": "hot"
+  },
+  {
+    "tags": [
+      "postgresql",
+      "uniqueidentifier"
+    ],
+    "owner": {
+      "reputation": 1425,
+      "user_id": 1131595,
+      "user_type": "registered",
+      "accept_rate": 44,
+      "profile_image": "https://www.gravatar.com/avatar/ca7fa8dc0f2b05254e315e6356659cd9?s=128&d=identicon&r=PG",
+      "display_name": "Jason Leach",
+      "link": "https://stackoverflow.com/users/1131595/jason-leach"
+    },
+    "is_answered": false,
+    "view_count": 21,
+    "answer_count": 1,
+    "score": 0,
+    "last_activity_date": 1558193414,
+    "creation_date": 1558191604,
+    "last_edit_date": 1558191915,
+    "question_id": 56200125,
+    "link": "https://stackoverflow.com/questions/56200125/generate-postgresql-row-id-that-does-not-leak-information",
+    "title": "Generate PostgreSQL row ID that does not leak information",
+    "sort": "hot"
+  },
+  {
+    "tags": [
+      "mysql",
+      "sql"
+    ],
+    "owner": {
+      "reputation": 3,
+      "user_id": 11520789,
+      "user_type": "registered",
+      "profile_image": "https://www.gravatar.com/avatar/b52488078d5990a4d52e72312ed7e4e3?s=128&d=identicon&r=PG&f=1",
+      "display_name": "Broomstick",
+      "link": "https://stackoverflow.com/users/11520789/broomstick"
+    },
+    "is_answered": true,
+    "view_count": 23,
+    "accepted_answer_id": 56200526,
+    "answer_count": 3,
+    "score": 0,
+    "last_activity_date": 1558194405,
+    "creation_date": 1558193608,
+    "question_id": 56200411,
+    "link": "https://stackoverflow.com/questions/56200411/sql-having-count-doesnt-work-as-expected",
+    "title": "SQL - Having COUNT() doesn&#39;t work as expected",
+    "sort": "hot"
+  },
+  {
+    "tags": [
+      "sql-server"
+    ],
+    "owner": {
+      "reputation": 21,
+      "user_id": 10081169,
+      "user_type": "registered",
+      "profile_image": "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg?sz=128",
+      "display_name": "Frans",
+      "link": "https://stackoverflow.com/users/10081169/frans"
+    },
+    "is_answered": true,
+    "view_count": 17,
+    "answer_count": 1,
+    "score": 0,
+    "last_activity_date": 1558195234,
+    "creation_date": 1558194503,
+    "last_edit_date": 1558194693,
+    "question_id": 56200547,
+    "link": "https://stackoverflow.com/questions/56200547/insert-into-select-statement-goes-wrong",
+    "title": "INSERT INTO SELECT Statement goes wrong",
+    "sort": "hot"
+  },
+  {
+    "tags": [
+      "r",
+      "ggplot2"
+    ],
+    "owner": {
+      "reputation": 519,
+      "user_id": 6320774,
+      "user_type": "registered",
+      "accept_rate": 74,
+      "profile_image": "https://www.gravatar.com/avatar/fac52be8d8087acfe699329f72f5713a?s=128&d=identicon&r=PG&f=1",
+      "display_name": "msh855",
+      "link": "https://stackoverflow.com/users/6320774/msh855"
+    },
+    "is_answered": true,
+    "view_count": 16,
+    "answer_count": 1,
+    "score": 0,
+    "last_activity_date": 1558195828,
+    "creation_date": 1558192693,
+    "question_id": 56200274,
+    "link": "https://stackoverflow.com/questions/56200274/ggplot-with-a-subset-of-levels",
+    "title": "ggplot with a subset of levels",
+    "sort": "hot"
+  },
+  {
+    "tags": [
+      "python",
+      "emacs"
+    ],
+    "owner": {
+      "reputation": 5169,
+      "user_id": 7301792,
+      "user_type": "registered",
+      "accept_rate": 98,
+      "profile_image": "https://lh5.googleusercontent.com/-TPU4DAP-PHw/AAAAAAAAAAI/AAAAAAAAAAA/APUIFaPlJ7TzYLNl-B513BdwJNzLJQuvyw/mo/photo.jpg?sz=128",
+      "display_name": "JawSaw",
+      "link": "https://stackoverflow.com/users/7301792/jawsaw"
+    },
+    "is_answered": true,
+    "view_count": 16,
+    "accepted_answer_id": 56200317,
+    "answer_count": 1,
+    "score": 0,
+    "last_activity_date": 1558193051,
+    "creation_date": 1558191655,
+    "question_id": 56200132,
+    "link": "https://stackoverflow.com/questions/56200132/python-fly-check-in-emacs",
+    "title": "Python fly check in emacs",
+    "sort": "hot"
+  },
+  {
+    "tags": [
+      "java",
+      "mysql",
+      "resultset"
+    ],
+    "owner": {
+      "reputation": 1,
+      "user_id": 8070951,
+      "user_type": "registered",
+      "profile_image": "https://www.gravatar.com/avatar/0127e9631b639e11ccc514742a935938?s=128&d=identicon&r=PG&f=1",
+      "display_name": "Gilang Rizqi",
+      "link": "https://stackoverflow.com/users/8070951/gilang-rizqi"
+    },
+    "is_answered": false,
+    "view_count": 20,
+    "answer_count": 1,
+    "score": 0,
+    "last_activity_date": 1558194383,
+    "creation_date": 1558192766,
+    "question_id": 56200285,
+    "link": "https://stackoverflow.com/questions/56200285/column-result-doesnt-as-be-expected",
+    "title": "Column result doesn&#39;t as be expected",
     "sort": "hot"
   },
   {
@@ -2277,172 +2416,51 @@
     ],
     "owner": {
       "reputation": 1,
-      "user_id": 11517911,
+      "user_id": 11520823,
       "user_type": "registered",
-      "profile_image": "https://www.gravatar.com/avatar/782f22da5e8c9b65a8324da4db51a11a?s=128&d=identicon&r=PG&f=1",
-      "display_name": "Ycirn",
-      "link": "https://stackoverflow.com/users/11517911/ycirn"
+      "profile_image": "https://lh3.googleusercontent.com/-7jhDNroeqOI/AAAAAAAAAAI/AAAAAAAAAB4/_b6IxYpCa9Q/photo.jpg?sz=128",
+      "display_name": "Jason Singh",
+      "link": "https://stackoverflow.com/users/11520823/jason-singh"
     },
-    "is_answered": false,
-    "view_count": 15,
-    "answer_count": 1,
-    "score": -2,
-    "last_activity_date": 1558187236,
-    "creation_date": 1558186506,
-    "question_id": 56199456,
-    "link": "https://stackoverflow.com/questions/56199456/navbar-gets-on-top-of-content",
-    "title": "Navbar gets on top of content",
-    "sort": "hot"
-  },
-  {
-    "tags": [
-      "java",
-      "docker",
-      "garbage-collection"
-    ],
-    "owner": {
-      "reputation": 44,
-      "user_id": 7505590,
-      "user_type": "registered",
-      "profile_image": "https://graph.facebook.com/1402561186472976/picture?type=large",
-      "display_name": "Maciej Rudnicki",
-      "link": "https://stackoverflow.com/users/7505590/maciej-rudnicki"
-    },
-    "is_answered": false,
-    "view_count": 15,
-    "answer_count": 0,
+    "is_answered": true,
+    "view_count": 16,
+    "answer_count": 2,
     "score": 0,
-    "last_activity_date": 1558186747,
-    "creation_date": 1558186368,
-    "last_edit_date": 1558186747,
-    "question_id": 56199440,
-    "link": "https://stackoverflow.com/questions/56199440/why-do-i-get-oom-with-docker",
-    "title": "Why do I get OOM with Docker?",
+    "last_activity_date": 1558194094,
+    "creation_date": 1558192758,
+    "question_id": 56200283,
+    "link": "https://stackoverflow.com/questions/56200283/slider-input-value-to-change-image",
+    "title": "Slider Input Value to Change Image",
     "sort": "hot"
   },
   {
     "tags": [
-      "c++",
-      "text"
+      "python",
+      "r",
+      "bioinformatics",
+      "biopython",
+      "bioconductor"
     ],
     "owner": {
       "reputation": 1,
-      "user_id": 7960327,
+      "user_id": 11520892,
       "user_type": "registered",
-      "profile_image": "https://www.gravatar.com/avatar/511e140d307776ebd0150768eea9b1be?s=128&d=identicon&r=PG&f=1",
-      "display_name": "Eric",
-      "link": "https://stackoverflow.com/users/7960327/eric"
+      "profile_image": "https://graph.facebook.com/2181504465258622/picture?type=large",
+      "display_name": "Puntakarn Urunanont",
+      "link": "https://stackoverflow.com/users/11520892/puntakarn-urunanont"
     },
     "is_answered": false,
     "view_count": 19,
-    "answer_count": 2,
-    "score": -2,
-    "last_activity_date": 1558185403,
-    "creation_date": 1558184438,
-    "question_id": 56199180,
-    "link": "https://stackoverflow.com/questions/56199180/how-to-extract-and-delete-some-text-in-a-file-and-delete-it-in-c",
-    "title": "How to extract and delete some text in a file and delete it in C++",
-    "sort": "hot"
-  },
-  {
-    "tags": [
-      "c#",
-      "entity-framework-core"
-    ],
-    "owner": {
-      "reputation": 1,
-      "user_id": 6190080,
-      "user_type": "registered",
-      "profile_image": "https://www.gravatar.com/avatar/6e77434993c2b9b0b83e4ed6bbaf8423?s=128&d=identicon&r=PG&f=1",
-      "display_name": "DevelopingProgrammer",
-      "link": "https://stackoverflow.com/users/6190080/developingprogrammer"
-    },
-    "is_answered": true,
-    "view_count": 11,
-    "answer_count": 1,
-    "score": 0,
-    "last_activity_date": 1558186633,
-    "creation_date": 1558186161,
-    "last_edit_date": 1558186178,
-    "question_id": 56199413,
-    "link": "https://stackoverflow.com/questions/56199413/how-do-i-query-a-one-to-many-relationship-using-the-auto-generated-class-i-creat",
-    "title": "How do I query a one to many relationship using the auto generated class I created using Entity Framework?",
-    "sort": "hot"
-  },
-  {
-    "tags": [
-      "asynchronous",
-      "parameters",
-      "flutter"
-    ],
-    "owner": {
-      "reputation": 414,
-      "user_id": 384150,
-      "user_type": "registered",
-      "accept_rate": 57,
-      "profile_image": "https://www.gravatar.com/avatar/30ad721e38c0433cadaf5c32e70df5d5?s=128&d=identicon&r=PG",
-      "display_name": "sathish kumar",
-      "link": "https://stackoverflow.com/users/384150/sathish-kumar"
-    },
-    "is_answered": true,
-    "view_count": 11,
-    "accepted_answer_id": 56199313,
-    "answer_count": 1,
-    "score": 0,
-    "last_activity_date": 1558185390,
-    "creation_date": 1558185198,
-    "question_id": 56199287,
-    "link": "https://stackoverflow.com/questions/56199287/flutter-how-to-pass-parameter-to-future-async-function",
-    "title": "Flutter: How to pass parameter to Future async function",
-    "sort": "hot"
-  },
-  {
-    "tags": [
-      "java",
-      "recursion"
-    ],
-    "owner": {
-      "reputation": 1,
-      "user_id": 11520398,
-      "user_type": "registered",
-      "profile_image": "https://lh5.googleusercontent.com/-y63SebaMZN8/AAAAAAAAAAI/AAAAAAAAAWQ/Tjgii9Auh9Y/photo.jpg?sz=128",
-      "display_name": "Mos Daro",
-      "link": "https://stackoverflow.com/users/11520398/mos-daro"
-    },
-    "is_answered": false,
-    "view_count": 14,
-    "answer_count": 1,
-    "score": 0,
-    "last_activity_date": 1558186945,
-    "creation_date": 1558185595,
-    "last_edit_date": 1558185902,
-    "question_id": 56199338,
-    "link": "https://stackoverflow.com/questions/56199338/why-does-my-recursion-code-repeat-the-same-solutions",
-    "title": "why does my recursion code repeat the same solutions?",
-    "sort": "hot"
-  },
-  {
-    "tags": [
-      "javascript",
-      "regex"
-    ],
-    "owner": {
-      "reputation": 18,
-      "user_id": 10883424,
-      "user_type": "registered",
-      "profile_image": "https://i.stack.imgur.com/hNtWr.png?s=128&g=1",
-      "display_name": "LJ Germain",
-      "link": "https://stackoverflow.com/users/10883424/lj-germain"
-    },
-    "is_answered": false,
-    "view_count": 14,
+    "closed_date": 1558195058,
     "answer_count": 0,
     "score": 0,
-    "last_activity_date": 1558186106,
-    "creation_date": 1558186106,
-    "question_id": 56199401,
-    "link": "https://stackoverflow.com/questions/56199401/how-can-i-get-the-value-of-a-group-and-define-it-in-one-line-in-javascript",
-    "title": "How can I get the value of a group and define it in one line in JavaScript?",
+    "last_activity_date": 1558194255,
+    "creation_date": 1558194128,
+    "last_edit_date": 1558194255,
+    "question_id": 56200492,
+    "link": "https://stackoverflow.com/questions/56200492/how-to-translate-this-python-code-into-r",
+    "closed_reason": "off-topic",
+    "title": "How to translate this Python code into R?",
     "sort": "hot"
   },
   {
@@ -2462,7 +2480,7 @@
       "link": "https://stackoverflow.com/users/4175223/janojlicz"
     },
     "is_answered": true,
-    "view_count": 5241,
+    "view_count": 5247,
     "accepted_answer_id": 56156165,
     "answer_count": 3,
     "score": 67,
@@ -2519,7 +2537,7 @@
       "link": "https://stackoverflow.com/users/2855190/vincent"
     },
     "is_answered": true,
-    "view_count": 2293,
+    "view_count": 2294,
     "closed_date": 1557851161,
     "accepted_answer_id": 56125450,
     "answer_count": 5,
@@ -2547,7 +2565,7 @@
       "link": "https://stackoverflow.com/users/10317111/schemaboi"
     },
     "is_answered": true,
-    "view_count": 1417,
+    "view_count": 1419,
     "accepted_answer_id": 56150419,
     "answer_count": 1,
     "score": 35,
@@ -2577,7 +2595,7 @@
       "link": "https://stackoverflow.com/users/1137388/cassio-neri"
     },
     "is_answered": true,
-    "view_count": 1510,
+    "view_count": 1511,
     "accepted_answer_id": 56102196,
     "answer_count": 1,
     "score": 35,
@@ -2596,7 +2614,7 @@
       "x86"
     ],
     "owner": {
-      "reputation": 1289,
+      "reputation": 1291,
       "user_id": 5533928,
       "user_type": "registered",
       "profile_image": "https://www.gravatar.com/avatar/517d5a0e08d76cd446ac7e6b156093a4?s=128&d=identicon&r=PG&f=1",
@@ -2604,7 +2622,7 @@
       "link": "https://stackoverflow.com/users/5533928/susmit-agrawal"
     },
     "is_answered": true,
-    "view_count": 1129,
+    "view_count": 1130,
     "accepted_answer_id": 56114122,
     "answer_count": 1,
     "score": 34,
@@ -2621,7 +2639,7 @@
       "32bit-64bit"
     ],
     "owner": {
-      "reputation": 2636,
+      "reputation": 2641,
       "user_id": 3114742,
       "user_type": "registered",
       "accept_rate": 91,
@@ -2630,10 +2648,10 @@
       "link": "https://stackoverflow.com/users/3114742/zach-smith"
     },
     "is_answered": true,
-    "view_count": 3111,
+    "view_count": 3222,
     "accepted_answer_id": 56192876,
-    "answer_count": 7,
-    "score": 29,
+    "answer_count": 6,
+    "score": 30,
     "last_activity_date": 1558155229,
     "creation_date": 1558094824,
     "last_edit_date": 1558096089,
@@ -2655,7 +2673,7 @@
       "link": "https://stackoverflow.com/users/11254500/vladimir"
     },
     "is_answered": true,
-    "view_count": 1194,
+    "view_count": 1195,
     "accepted_answer_id": 56151634,
     "answer_count": 2,
     "score": 25,
@@ -2675,7 +2693,7 @@
       "continuation-passing"
     ],
     "owner": {
-      "reputation": 8494,
+      "reputation": 8493,
       "user_id": 7509065,
       "user_type": "registered",
       "profile_image": "https://lh6.googleusercontent.com/-eT7QDf4HDf0/AAAAAAAAAAI/AAAAAAAAAi8/Hppm678o8WA/photo.jpg?sz=128",
@@ -2683,7 +2701,7 @@
       "link": "https://stackoverflow.com/users/7509065/joseph-sible"
     },
     "is_answered": true,
-    "view_count": 1199,
+    "view_count": 1202,
     "accepted_answer_id": 56123228,
     "answer_count": 5,
     "score": 24,
@@ -2710,7 +2728,7 @@
       "link": "https://stackoverflow.com/users/4007560/robin-hsu"
     },
     "is_answered": true,
-    "view_count": 1484,
+    "view_count": 1486,
     "answer_count": 5,
     "score": 23,
     "last_activity_date": 1557915246,
@@ -2734,7 +2752,7 @@
       "link": "https://stackoverflow.com/users/1577580/gilad"
     },
     "is_answered": true,
-    "view_count": 712,
+    "view_count": 713,
     "closed_date": 1557634315,
     "accepted_answer_id": 56094152,
     "answer_count": 1,
@@ -2762,7 +2780,7 @@
       "link": "https://stackoverflow.com/users/6753380/jay-patel"
     },
     "is_answered": true,
-    "view_count": 1084,
+    "view_count": 1085,
     "accepted_answer_id": 56163425,
     "answer_count": 2,
     "score": 19,
@@ -2817,7 +2835,7 @@
       "link": "https://stackoverflow.com/users/4646394/helix"
     },
     "is_answered": true,
-    "view_count": 409,
+    "view_count": 411,
     "accepted_answer_id": 56184603,
     "answer_count": 1,
     "score": 18,
@@ -2895,7 +2913,7 @@
       "link": "https://stackoverflow.com/users/11491393/patrycja-kowalczyk"
     },
     "is_answered": true,
-    "view_count": 1333,
+    "view_count": 1334,
     "accepted_answer_id": 56110880,
     "answer_count": 4,
     "score": 17,
@@ -2905,33 +2923,6 @@
     "question_id": 56108003,
     "link": "https://stackoverflow.com/questions/56108003/how-to-replace-null-value-with-value-from-the-next-row",
     "title": "How to replace null value with value from the next row",
-    "sort": "week"
-  },
-  {
-    "tags": [
-      "c++",
-      "stl",
-      "erase-remove-idiom"
-    ],
-    "owner": {
-      "reputation": 2117,
-      "user_id": 387023,
-      "user_type": "registered",
-      "accept_rate": 83,
-      "profile_image": "https://i.stack.imgur.com/Jf9aL.jpg?s=128&g=1",
-      "display_name": "j00hi",
-      "link": "https://stackoverflow.com/users/387023/j00hi"
-    },
-    "is_answered": true,
-    "view_count": 413,
-    "accepted_answer_id": 56091165,
-    "answer_count": 1,
-    "score": 17,
-    "last_activity_date": 1557584302,
-    "creation_date": 1557583510,
-    "question_id": 56091062,
-    "link": "https://stackoverflow.com/questions/56091062/for-the-erase-remove-idiom-why-is-the-second-parameter-necessary-which-points-t",
-    "title": "For the erase-remove idiom, why is the second parameter necessary which points to the end of the container?",
     "sort": "week"
   },
   {
@@ -2950,7 +2941,7 @@
       "link": "https://stackoverflow.com/users/1406322/aaditya-sharma"
     },
     "is_answered": true,
-    "view_count": 1252,
+    "view_count": 1253,
     "accepted_answer_id": 56108599,
     "answer_count": 5,
     "score": 16,
@@ -3107,7 +3098,7 @@
       "link": "https://stackoverflow.com/users/11047101/usingcpp"
     },
     "is_answered": true,
-    "view_count": 338,
+    "view_count": 339,
     "accepted_answer_id": 56111101,
     "answer_count": 2,
     "score": 14,
@@ -3133,7 +3124,7 @@
       "link": "https://stackoverflow.com/users/9793676/arti-singh"
     },
     "is_answered": true,
-    "view_count": 502,
+    "view_count": 509,
     "accepted_answer_id": 56189641,
     "answer_count": 6,
     "score": 13,
@@ -3157,7 +3148,7 @@
       "link": "https://stackoverflow.com/users/4338776/zigzagoon"
     },
     "is_answered": true,
-    "view_count": 609,
+    "view_count": 611,
     "protected_date": 1557857645,
     "accepted_answer_id": 56136166,
     "answer_count": 3,
@@ -3185,7 +3176,7 @@
       "link": "https://stackoverflow.com/users/1599647/user1599647"
     },
     "is_answered": true,
-    "view_count": 563,
+    "view_count": 568,
     "accepted_answer_id": 56181864,
     "answer_count": 5,
     "score": 12,
@@ -3260,6 +3251,34 @@
   {
     "tags": [
       "c++",
+      "gcc",
+      "c++20"
+    ],
+    "owner": {
+      "reputation": 11248,
+      "user_id": 683218,
+      "user_type": "registered",
+      "accept_rate": 69,
+      "profile_image": "https://i.stack.imgur.com/7Vy7c.png?s=128&g=1",
+      "display_name": "tinlyx",
+      "link": "https://stackoverflow.com/users/683218/tinlyx"
+    },
+    "is_answered": true,
+    "view_count": 709,
+    "accepted_answer_id": 56118997,
+    "answer_count": 2,
+    "score": 12,
+    "last_activity_date": 1557785671,
+    "creation_date": 1557776686,
+    "last_edit_date": 1557785671,
+    "question_id": 56118941,
+    "link": "https://stackoverflow.com/questions/56118941/do-we-have-c20-ranges-library-in-gcc-9",
+    "title": "Do we have C++20 ranges library in GCC 9?",
+    "sort": "week"
+  },
+  {
+    "tags": [
+      "c++",
       "syntax"
     ],
     "owner": {
@@ -3271,7 +3290,7 @@
       "link": "https://stackoverflow.com/users/3973656/piock%c3%b1ec"
     },
     "is_answered": true,
-    "view_count": 9999,
+    "view_count": 10000,
     "accepted_answer_id": 55929386,
     "answer_count": 3,
     "score": 148,
@@ -3290,7 +3309,7 @@
       "algorithm"
     ],
     "owner": {
-      "reputation": 17967,
+      "reputation": 17976,
       "user_id": 9819146,
       "user_type": "registered",
       "profile_image": "https://lh4.googleusercontent.com/-ioXmnWNrB_w/AAAAAAAAAAI/AAAAAAAAADs/Q47JYDWDFyo/photo.jpg?sz=128",
@@ -3298,7 +3317,7 @@
       "link": "https://stackoverflow.com/users/9819146/maheer-ali"
     },
     "is_answered": true,
-    "view_count": 7793,
+    "view_count": 7797,
     "accepted_answer_id": 55840779,
     "answer_count": 12,
     "score": 113,
@@ -3325,7 +3344,7 @@
       "link": "https://stackoverflow.com/users/373215/nsivakr"
     },
     "is_answered": true,
-    "view_count": 41459,
+    "view_count": 41461,
     "closed_date": 1556534899,
     "accepted_answer_id": 55885729,
     "answer_count": 1,
@@ -3356,7 +3375,7 @@
       "link": "https://stackoverflow.com/users/11313585/ernest-bredar"
     },
     "is_answered": true,
-    "view_count": 7940,
+    "view_count": 7941,
     "accepted_answer_id": 55783623,
     "answer_count": 2,
     "score": 80,
@@ -3381,7 +3400,7 @@
       "link": "https://stackoverflow.com/users/6531794/ravi-w"
     },
     "is_answered": true,
-    "view_count": 2309,
+    "view_count": 2311,
     "accepted_answer_id": 55757108,
     "answer_count": 3,
     "score": 68,
@@ -3410,7 +3429,7 @@
       "link": "https://stackoverflow.com/users/4175223/janojlicz"
     },
     "is_answered": true,
-    "view_count": 5241,
+    "view_count": 5247,
     "accepted_answer_id": 56156165,
     "answer_count": 3,
     "score": 67,
@@ -3466,7 +3485,7 @@
       "link": "https://stackoverflow.com/users/4636048/phill"
     },
     "is_answered": true,
-    "view_count": 4280,
+    "view_count": 4281,
     "accepted_answer_id": 55916585,
     "answer_count": 1,
     "score": 57,
@@ -3496,7 +3515,7 @@
       "link": "https://stackoverflow.com/users/1877002/benny-k"
     },
     "is_answered": true,
-    "view_count": 2481,
+    "view_count": 2482,
     "accepted_answer_id": 56063573,
     "answer_count": 2,
     "score": 53,
@@ -3571,7 +3590,7 @@
       "java-time"
     ],
     "owner": {
-      "reputation": 5729,
+      "reputation": 5734,
       "user_id": 4647853,
       "user_type": "registered",
       "accept_rate": 74,
@@ -3693,7 +3712,7 @@
       "link": "https://stackoverflow.com/users/10039830/somename"
     },
     "is_answered": true,
-    "view_count": 2302,
+    "view_count": 2303,
     "accepted_answer_id": 55939696,
     "answer_count": 3,
     "score": 37,
@@ -3721,7 +3740,7 @@
       "link": "https://stackoverflow.com/users/2855190/vincent"
     },
     "is_answered": true,
-    "view_count": 2293,
+    "view_count": 2294,
     "closed_date": 1557851161,
     "accepted_answer_id": 56125450,
     "answer_count": 5,
@@ -3806,7 +3825,7 @@
       "link": "https://stackoverflow.com/users/5677209/o-aroesti"
     },
     "is_answered": true,
-    "view_count": 3390,
+    "view_count": 3392,
     "answer_count": 7,
     "score": 36,
     "last_activity_date": 1556670332,
@@ -3831,7 +3850,7 @@
       "link": "https://stackoverflow.com/users/10317111/schemaboi"
     },
     "is_answered": true,
-    "view_count": 1417,
+    "view_count": 1419,
     "accepted_answer_id": 56150419,
     "answer_count": 1,
     "score": 35,
@@ -3861,7 +3880,7 @@
       "link": "https://stackoverflow.com/users/1137388/cassio-neri"
     },
     "is_answered": true,
-    "view_count": 1510,
+    "view_count": 1511,
     "accepted_answer_id": 56102196,
     "answer_count": 1,
     "score": 35,
@@ -3880,7 +3899,7 @@
       "x86"
     ],
     "owner": {
-      "reputation": 1289,
+      "reputation": 1291,
       "user_id": 5533928,
       "user_type": "registered",
       "profile_image": "https://www.gravatar.com/avatar/517d5a0e08d76cd446ac7e6b156093a4?s=128&d=identicon&r=PG&f=1",
@@ -3888,7 +3907,7 @@
       "link": "https://stackoverflow.com/users/5533928/susmit-agrawal"
     },
     "is_answered": true,
-    "view_count": 1129,
+    "view_count": 1130,
     "accepted_answer_id": 56114122,
     "answer_count": 1,
     "score": 34,
@@ -3915,7 +3934,7 @@
       "link": "https://stackoverflow.com/users/6354590/gaurav-bharadwaj"
     },
     "is_answered": true,
-    "view_count": 1348,
+    "view_count": 1349,
     "accepted_answer_id": 55849267,
     "answer_count": 2,
     "score": 34,
@@ -3936,7 +3955,7 @@
       "integer-overflow"
     ],
     "owner": {
-      "reputation": 65960,
+      "reputation": 65970,
       "user_id": 4593267,
       "user_type": "registered",
       "accept_rate": 62,
@@ -3974,7 +3993,7 @@
       "link": "https://stackoverflow.com/users/7314014/ivan-lencina"
     },
     "is_answered": true,
-    "view_count": 5419,
+    "view_count": 5435,
     "protected_date": 1557299449,
     "accepted_answer_id": 56028118,
     "answer_count": 8,
@@ -4047,38 +4066,11 @@
   },
   {
     "tags": [
-      "c++",
-      "language-lawyer",
-      "c++20"
-    ],
-    "owner": {
-      "reputation": 2300,
-      "user_id": 9691656,
-      "user_type": "registered",
-      "profile_image": "https://www.gravatar.com/avatar/f6944dacfe20c1ae8aa3cf5131b2cde3?s=128&d=identicon&r=PG&f=1",
-      "display_name": "Tyker",
-      "link": "https://stackoverflow.com/users/9691656/tyker"
-    },
-    "is_answered": true,
-    "view_count": 650,
-    "accepted_answer_id": 55795442,
-    "answer_count": 1,
-    "score": 30,
-    "last_activity_date": 1555941013,
-    "creation_date": 1555940655,
-    "last_edit_date": 1555940918,
-    "question_id": 55795374,
-    "link": "https://stackoverflow.com/questions/55795374/can-deduction-guide-have-an-explicitbool-specifier",
-    "title": "Can Deduction Guide have an explicit(bool) specifier?",
-    "sort": "month"
-  },
-  {
-    "tags": [
       "c",
       "32bit-64bit"
     ],
     "owner": {
-      "reputation": 2636,
+      "reputation": 2641,
       "user_id": 3114742,
       "user_type": "registered",
       "accept_rate": 91,
@@ -4087,16 +4079,46 @@
       "link": "https://stackoverflow.com/users/3114742/zach-smith"
     },
     "is_answered": true,
-    "view_count": 3111,
+    "view_count": 3222,
     "accepted_answer_id": 56192876,
-    "answer_count": 7,
-    "score": 29,
+    "answer_count": 6,
+    "score": 30,
     "last_activity_date": 1558155229,
     "creation_date": 1558094824,
     "last_edit_date": 1558096089,
     "question_id": 56186081,
     "link": "https://stackoverflow.com/questions/56186081/what-does-it-mean-for-a-program-to-be-32-or-64-bit",
     "title": "What does it mean for a program to be 32 or 64 bit?",
+    "sort": "month"
+  },
+  {
+    "tags": [
+      "c++",
+      "rust",
+      "traits",
+      "c++-concepts"
+    ],
+    "owner": {
+      "reputation": 27931,
+      "user_id": 2408867,
+      "user_type": "registered",
+      "accept_rate": 86,
+      "profile_image": "https://i.stack.imgur.com/994y9.jpg?s=128&g=1",
+      "display_name": "Lukas Kalbertodt",
+      "link": "https://stackoverflow.com/users/2408867/lukas-kalbertodt"
+    },
+    "is_answered": true,
+    "view_count": 598,
+    "bounty_amount": 150,
+    "bounty_closes_date": 1558339882,
+    "answer_count": 1,
+    "score": 30,
+    "last_activity_date": 1557938106,
+    "creation_date": 1557335372,
+    "last_edit_date": 1557938106,
+    "question_id": 56045846,
+    "link": "https://stackoverflow.com/questions/56045846/what-are-the-similarities-and-differences-between-cs-concepts-and-rusts-trai",
+    "title": "What are the similarities and differences between C++&#39;s concepts and Rust&#39;s traits?",
     "sort": "month"
   }
 ]

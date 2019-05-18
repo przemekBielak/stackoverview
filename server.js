@@ -16,6 +16,28 @@ app.use(
   "/graphql/",
   graphqlHTTP({
     schema: buildSchema(`
+      type AnswerOwner {
+        reputation: Int
+        user_id: Int
+        user_type: String
+        accept_rate: Int
+        profile_image: String
+        display_name: String
+        link: String
+      }
+
+      type Answer {
+        answerOwner: AnswerOwner
+        is_accepted: Boolean
+        score: Int
+        last_activity_date: Int
+        last_edit_date: Int
+        creation_date: Int
+        answer_id: Int
+        question_id: Int
+        body: String
+      }
+
       type Owner {
         reputation: Int
         user_id: Int
@@ -44,6 +66,7 @@ app.use(
 
       type RootQuery {
         questions(is_answered: Boolean): [Question]
+        answers: [Answer]
       }
 
       schema {
@@ -53,6 +76,19 @@ app.use(
     rootValue: {
       questions: args => {
         return stackQuestions.filter(x => x.is_answered === args.is_answered);
+      },
+      answers: args => {
+        return (async () => {
+          let stackAnswers = [];
+          
+          const res = await fetch(
+            `https://api.stackexchange.com/2.2/questions/11227809/answers?order=desc&sort=activity&site=stackoverflow&filter=withbody`
+          );
+          const data = await res.json();
+          stackAnswers = data.items;
+  
+          return stackAnswers;
+        })();
       }
     },
     graphiql: true
@@ -93,4 +129,14 @@ const getStackQuestions = questions => {
 };
 
 getStackQuestions(questionSorts);
-// app.listen(PORT, () => console.log(`Serving on port ${PORT}`));
+
+
+
+// fetch(
+//   `https://api.stackexchange.com/2.2/questions/11227809/answers?order=desc&sort=activity&site=stackoverflow&filter=withbody`
+// )
+//   .then(res => res.json())
+//   .then(data => (stackAnswers = data.items))
+//   .catch(err => console.log(err));
+
+// return stackAnswers;
