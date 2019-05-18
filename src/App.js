@@ -1,22 +1,15 @@
 import React, { Component } from "react";
-import ApolloClient from "apollo-boost";
-import { ApolloProvider } from "react-apollo";
-import Header from './components/Header'
 import "./App.css";
-
-const client = new ApolloClient({
-  uri: "/graphql"
-});
-
+import Questions from "./components/Questions";
+import HeaderContainer from "./components/Header/HeaderContainer";
 
 class App extends Component {
   render() {
     return (
-      <ApolloProvider client={client}>
-        <div className="App">
-          <Header />
-        </div>
-      </ApolloProvider>
+      <div className="App">
+        <HeaderContainer />
+        <Questions />
+      </div>
     );
   }
 }

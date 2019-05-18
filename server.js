@@ -51,15 +51,15 @@ app.use(
       }
     `),
     rootValue: {
-      questions: (args) => {
+      questions: args => {
         return stackQuestions.filter(x => x.is_answered === args.is_answered);
       }
     },
     graphiql: true
   })
 );
-app.use(express.static(path.join(__dirname, "build")));
 
+app.use(express.static(path.join(__dirname, "build")));
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "build", "index.html"));
 });
@@ -73,9 +73,11 @@ const getStackQuestions = questions => {
         `https://api.stackexchange.com/2.2/questions?order=desc&sort=${sort}&site=stackoverflow`
       );
       const data = await res.json();
-      stackQuestions.push(...data.items.map(el => {
-        return {...el, "sort": sort}
-      }));        
+      stackQuestions.push(
+        ...data.items.map(el => {
+          return { ...el, sort: sort };
+        })
+      );
     }
 
     fs.writeFile(
@@ -90,4 +92,5 @@ const getStackQuestions = questions => {
   })();
 };
 
-getStackQuestions(questionSorts);
+// getStackQuestions(questionSorts);
+app.listen(PORT, () => console.log(`Serving on port ${PORT}`));
