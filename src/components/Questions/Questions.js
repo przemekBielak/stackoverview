@@ -35,19 +35,10 @@ class Questions extends Component {
     })
       .then(res => res.json())
       .then(data => {
-        if (acceptedAnswerId === null) {
-          this.setState({
-            answers: data.data.answers,
-            selectedQuestion: question_id
-          });
-        } else {
-          // this.setState({
-          //   answers: data.data.answers.filter(x => {
-          //     x.answer_id === acceptedAnswerId;
-          //   }),
-          //   selectedQuestion: question_id
-          // });
-        }
+        this.setState({
+          answers: data.data.answers,
+          selectedQuestion: question_id
+        });
       })
       .catch(err => console.log(err));
   }
@@ -72,7 +63,8 @@ class Questions extends Component {
                     this.showDetails(item.question_id);
                   }}
                 >
-                  <span className="questions__score">{item.score}.</span> {item.title}
+                  <span className="questions__score">{item.score}.</span>{" "}
+                  {item.title}
                 </li>
               );
             }

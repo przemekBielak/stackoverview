@@ -1,5 +1,6 @@
 .questions__answers__body {
-  border: 1px black solid;
+  padding-bottom: 35px;
+  border-bottom: 1px #333 solid;
 }
 
 .questions__score {
