@@ -72,7 +72,7 @@ class Questions extends Component {
                     this.showDetails(item.question_id);
                   }}
                 >
-                  {item.score}. {item.title}
+                  <span className="questions__score">{item.score}.</span> {item.title}
                 </li>
               );
             }
