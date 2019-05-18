@@ -6,18 +6,28 @@ class Questions extends Component {
     this.state = {};
   }
 
+  showDetails(question_id) {
+    console.log(question_id);
+  }
+
   render() {
     return (
       <div>
-        {this.props.questions.map(item => {
-          if (item.sort === this.props.activeQuestionSort) {
-            return (
-              <p>
-                {item.score}. {item.title}
-              </p>
-            );
-          }
-        })}
+        <ul>
+          {this.props.questions.map(item => {
+            if (item.sort === this.props.activeQuestionSort) {
+              return (
+                <li
+                  onClick={() => {
+                    this.showDetails(item.question_id);
+                  }}
+                >
+                  {item.score}. {item.title}
+                </li>
+              );
+            }
+          })}
+        </ul>
       </div>
     );
   }
