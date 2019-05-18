@@ -9,7 +9,7 @@ const fs = require("fs");
 const app = express();
 const PORT = 8080;
 
-let stackData = [];
+let stackQuestions = [];
 
 app.use(bodyParser.json());
 app.use(
@@ -43,7 +43,7 @@ app.use(
       }
 
       type RootQuery {
-        questions: [Question]
+        questions(is_answered: Boolean): [Question]
       }
 
       schema {
@@ -51,8 +51,8 @@ app.use(
       }
     `),
     rootValue: {
-      questions: () => {
-        return stackData;
+      questions: (args) => {
+        return stackQuestions.filter(x => x.is_answered === args.is_answered);
       }
     },
     graphiql: true
@@ -69,19 +69,18 @@ const questionSorts = ["activity", "votes", "hot", "week", "month"];
 const getStackQuestions = questions => {
   (async () => {
     for (sort of questions) {
-      console.log(sort);
       const res = await fetch(
         `https://api.stackexchange.com/2.2/questions?order=desc&sort=${sort}&site=stackoverflow`
       );
       const data = await res.json();
-      stackData.push(...data.items.map(el => {
+      stackQuestions.push(...data.items.map(el => {
         return {...el, "sort": sort}
       }));        
     }
 
     fs.writeFile(
-      "./stackdata.json",
-      JSON.stringify(stackData, null, 2),
+      "./stackQuestions.json",
+      JSON.stringify(stackQuestions, null, 2),
       err => {
         console.log(err);
       }
