@@ -5,12 +5,19 @@ class HeaderContainer extends Component {
   constructor(props) {
     super(props);
 
-    this.state = {
-    }
+    this.state = {};
   }
 
+  handleShowActivity = () => {
+    console.log("clicked");
+  };
+
   render() {
-    return <Header />;
+    return (
+      <div>
+        <Header handleShowActivity={this.handleShowActivity} />
+      </div>
+    );
   }
 }
 

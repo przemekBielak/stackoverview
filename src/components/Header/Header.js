@@ -3,7 +3,7 @@ import './Header.css'
 
 const Header = props => (
   <div className="Header">
-    <button>activity</button>
+    <button onClick={props.handleShowActivity}>activity</button>
     <button>votes</button>
     <button>hot</button>
     <button>week</button>

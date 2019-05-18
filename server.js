@@ -92,5 +92,5 @@ const getStackQuestions = questions => {
   })();
 };
 
-// getStackQuestions(questionSorts);
-app.listen(PORT, () => console.log(`Serving on port ${PORT}`));
+getStackQuestions(questionSorts);
+// app.listen(PORT, () => console.log(`Serving on port ${PORT}`));
