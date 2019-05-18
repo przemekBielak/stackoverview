@@ -62,7 +62,7 @@ class Questions extends Component {
     }
 
     return (
-      <div>
+      <div className="questions">
         <ul>
           {this.props.questions.map(item => {
             if (item.sort === this.props.activeQuestionSort) {
