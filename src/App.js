@@ -7,18 +7,26 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      activeQuestionSort: "month",
       questions: []
     };
+
+    this.setActiveQuestionSort = this.setActiveQuestionSort.bind(this);
+  }
+
+  setActiveQuestionSort(sort) {
+    this.setState({ activeQuestionSort: sort });
   }
 
   componentDidMount() {
     const requestQuestionsBody = {
       query: `{
         questions (is_answered: true){
-          is_answered
           title
           question_id
           accepted_answer_id
+          sort
+          score
         }
       }`
     };
@@ -42,8 +50,11 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <HeaderContainer />
-        <Questions />
+        <HeaderContainer setActiveQuestionSort={this.setActiveQuestionSort} />
+        <Questions
+          questions={this.state.questions}
+          activeQuestionSort={this.state.activeQuestionSort}
+        />
       </div>
     );
   }

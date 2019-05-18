@@ -1,11 +1,24 @@
 import React, { Component } from "react";
 
 class Questions extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+
   render() {
     return (
-        <div >
-          <h1>questions</h1>
-        </div>
+      <div>
+        {this.props.questions.map(item => {
+          if (item.sort === this.props.activeQuestionSort) {
+            return (
+              <p>
+                {item.score}. {item.title}
+              </p>
+            );
+          }
+        })}
+      </div>
     );
   }
 }

@@ -9,13 +9,36 @@ class HeaderContainer extends Component {
   }
 
   handleShowActivity = () => {
-    console.log("clicked");
+    this.props.setActiveQuestionSort("activity");
   };
+
+  handleShowVotes = () => {
+    this.props.setActiveQuestionSort("votes");
+  };
+
+  handleShowHot = () => {
+    this.props.setActiveQuestionSort("hot");
+  };
+
+  handleShowWeek = () => {
+    this.props.setActiveQuestionSort("week");
+  };
+
+  handleShowMonth = () => {
+    this.props.setActiveQuestionSort("month");
+  };
+
 
   render() {
     return (
       <div>
-        <Header handleShowActivity={this.handleShowActivity} />
+        <Header
+          handleShowActivity={this.handleShowActivity}
+          handleShowVotes={this.handleShowVotes}
+          handleShowHot={this.handleShowHot}
+          handleShowWeek={this.handleShowWeek}
+          handleShowMonth={this.handleShowMonth}
+        />
       </div>
     );
   }
