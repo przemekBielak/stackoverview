@@ -21,7 +21,7 @@ class App extends Component {
   componentDidMount() {
     const requestQuestionsBody = {
       query: `{
-        questions (is_answered: true){
+        questions {
           title
           question_id
           accepted_answer_id

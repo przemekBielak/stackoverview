@@ -66,7 +66,7 @@ app.use(
       }
 
       type RootQuery {
-        questions(is_answered: Boolean): [Question]
+        questions: [Question]
         answers(question_id: Int): [Answer]
       }
 
@@ -76,7 +76,7 @@ app.use(
     `),
     rootValue: {
       questions: args => {
-        return stackQuestions.filter(x => x.is_answered === args.is_answered);
+        return stackQuestions;
       },
       answers: args => {
         return (async () => {
