@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./Questions.css";
 
 class Questions extends Component {
   constructor(props) {
@@ -13,7 +14,6 @@ class Questions extends Component {
       query: `{
           answers (question_id: ${question_id}){
             answer_id
-            score
             body
         }
       }`
@@ -53,6 +53,16 @@ class Questions extends Component {
             }
           })}
         </ul>
+        <div className="questions__answers">
+          {this.state.answers.map(answer => {
+            return (
+              <div
+                className="questions__answers__body"
+                dangerouslySetInnerHTML={{ __html: answer.body }}
+              />
+            );
+          })}
+        </div>
       </div>
     );
   }
