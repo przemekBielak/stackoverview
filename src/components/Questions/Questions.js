@@ -9,10 +9,10 @@ class Questions extends Component {
       answers: []
     };
 
-    this.showDetails = this.showDetails.bind(this);
+    this.fetchAnswers = this.fetchAnswers.bind(this);
   }
 
-  showDetails(question_id) {
+  fetchAnswers(question_id) {
     const acceptedAnswerId = this.props.questions.find(x => {
       return x.question_id === question_id;
     }).accepted_answer_id;
@@ -20,8 +20,6 @@ class Questions extends Component {
     this.setState({
       selectedQuestion: question_id
     });
-
-    console.log(acceptedAnswerId);
 
     const requestQuestionsBody = {
       query: `{
@@ -41,23 +39,26 @@ class Questions extends Component {
     })
       .then(res => res.json())
       .then(data => {
-        if (acceptedAnswerId === null) {
+        const accepted = data.data.answers.find(x => {
+          return x.answer_id === acceptedAnswerId;
+        });
+
+        if (accepted !== undefined) {
+          const acceptedArr = [];
+          acceptedArr.push(accepted);
+          this.setState({
+            answers: acceptedArr
+          });
+        } else {
           this.setState({
             answers: data.data.answers
           });
-        } else {
-          // this.setState({
-          //   answers: data.data.answers.filter(x => {
-          //     x.answer_id === acceptedAnswerId;
-          //   }),
-          //   selectedQuestion: question_id
-          // });
         }
       })
       .catch(err => console.log(err));
   }
 
-  showQuestions(questions, activeQuestionSort, showDetails) {
+  showQuestionsList(questions, activeQuestionSort, fetchAnswers) {
     return (
       <div>
         <ul>
@@ -66,7 +67,7 @@ class Questions extends Component {
               return (
                 <li
                   onClick={() => {
-                    showDetails(item.question_id);
+                    fetchAnswers(item.question_id);
                   }}
                 >
                   <span className="questions__score">{item.score}.</span>
@@ -80,11 +81,7 @@ class Questions extends Component {
     );
   }
 
-  showQandA(questions, selectedQuestion, answers) {
-    const question = questions.find(x => {
-      return x.question_id === selectedQuestion;
-    });
-
+  showQandA(question, answers) {
     if (question !== undefined) {
       return (
         <div className="questions__answers">
@@ -112,18 +109,18 @@ class Questions extends Component {
   }
 
   render() {
+    const question = this.props.questions.find(x => {
+      return x.question_id === this.state.selectedQuestion;
+    });
+
     return (
       <div className="questions">
-        {this.showQuestions(
+        {this.showQuestionsList(
           this.props.questions,
           this.props.activeQuestionSort,
-          this.showDetails
+          this.fetchAnswers
         )}
-        {this.showQandA(
-          this.props.questions,
-          this.state.selectedQuestion,
-          this.state.answers
-        )}
+        {this.showQandA(question, this.state.answers)}
       </div>
     );
   }
