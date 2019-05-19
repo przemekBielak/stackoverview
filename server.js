@@ -107,9 +107,22 @@ const getStackQuestions = questions => {
       const res = await fetch(
         `https://api.stackexchange.com/2.2/questions?order=desc&sort=${sort}&site=stackoverflow&filter=withbody`
       );
-      const data = await res.replace(/&quot;/g, "'").json();
+      const data = await res.json();
+      const jsonStringified = JSON.stringify(data)
+        .replace(/&#34;/g, "'")
+        .replace(/&quot;/g, "'")
+        .replace(/&#39;/g, "'")
+        .replace(/&apos;/g, "'")
+        .replace(/&#62;/g, ">")
+        .replace(/&gt;/g, ">")
+        .replace(/&#60;/g, "<")
+        .replace(/&lt;/g, "<")
+        .replace(/&amp;/g, "&")
+        .replace(/&#38;/g, "&");
+      const parsedData = JSON.parse(jsonStringified);
+      console.log(parsedData);
       stackQuestions.push(
-        ...data.items.map(el => {
+        ...parsedData.items.map(el => {
           return { ...el, sort: sort };
         })
       );
