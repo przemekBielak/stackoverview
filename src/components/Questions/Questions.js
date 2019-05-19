@@ -8,6 +8,8 @@ class Questions extends Component {
       selectedQuestion: 0,
       answers: []
     };
+
+    this.showDetails = this.showDetails.bind(this);
   }
 
   showDetails(question_id) {
@@ -55,27 +57,46 @@ class Questions extends Component {
       .catch(err => console.log(err));
   }
 
-  showQandA() {
-    let questionBody = this.props.questions.find(x => {
-      return x.question_id === this.state.selectedQuestion;
+  showQuestions(questions, activeQuestionSort, showDetails) {
+    return (
+      <div>
+        <ul>
+          {questions.map(item => {
+            if (item.sort === activeQuestionSort) {
+              return (
+                <li
+                  onClick={() => {
+                    showDetails(item.question_id);
+                  }}
+                >
+                  <span className="questions__score">{item.score}.</span>
+                  {item.title}
+                </li>
+              );
+            }
+          })}
+        </ul>
+      </div>
+    );
+  }
+
+  showQandA(questions, selectedQuestion, answers) {
+    const question = questions.find(x => {
+      return x.question_id === selectedQuestion;
     });
 
-    if (typeof questionBody !== "undefined") {
-      questionBody = questionBody.body;
-    }
-
-    if (questionBody !== undefined) {
+    if (question !== undefined) {
       return (
         <div className="questions__answers">
           <h2>Question</h2>
           <div
             className="questions__answers__body"
             dangerouslySetInnerHTML={{
-              __html: questionBody
+              __html: question.body
             }}
           />
           <h2>Answers</h2>
-          {this.state.answers.map(answer => {
+          {answers.map(answer => {
             return (
               <div
                 className="questions__answers__body"
@@ -93,23 +114,16 @@ class Questions extends Component {
   render() {
     return (
       <div className="questions">
-        <ul>
-          {this.props.questions.map(item => {
-            if (item.sort === this.props.activeQuestionSort) {
-              return (
-                <li
-                  onClick={() => {
-                    this.showDetails(item.question_id);
-                  }}
-                >
-                  <span className="questions__score">{item.score}.</span>{" "}
-                  {item.title}
-                </li>
-              );
-            }
-          })}
-        </ul>
-        {this.showQandA()}
+        {this.showQuestions(
+          this.props.questions,
+          this.props.activeQuestionSort,
+          this.showDetails
+        )}
+        {this.showQandA(
+          this.props.questions,
+          this.state.selectedQuestion,
+          this.state.answers
+        )}
       </div>
     );
   }

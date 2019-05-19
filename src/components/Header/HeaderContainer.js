@@ -1,11 +1,9 @@
-import React, { Component } from "react";
+import React, { PureComponent } from "react";
 import Header from "./Header";
 
-class HeaderContainer extends Component {
+class HeaderContainer extends PureComponent {
   constructor(props) {
     super(props);
-
-    this.state = {};
   }
 
   handleShowActivity = () => {
