@@ -6,16 +6,21 @@ class Questions extends Component {
     super(props);
     this.state = {
       selectedQuestion: 0,
-      answers: []
+      answers: [],
+      acceptedAnswerExists: false
     };
+
+    this.fetchAnswers = this.fetchAnswers.bind(this);
   }
 
-  showDetails(question_id) {
+  fetchAnswers(question_id) {
     const acceptedAnswerId = this.props.questions.find(x => {
       return x.question_id === question_id;
     }).accepted_answer_id;
 
-    console.log(acceptedAnswerId);
+    this.setState({
+      selectedQuestion: question_id
+    });
 
     const requestQuestionsBody = {
       query: `{
@@ -35,59 +40,105 @@ class Questions extends Component {
     })
       .then(res => res.json())
       .then(data => {
-        this.setState({
-          answers: data.data.answers,
-          selectedQuestion: question_id
+        const accepted = data.data.answers.find(x => {
+          return x.answer_id === acceptedAnswerId;
         });
+
+        if (accepted !== undefined) {
+          const acceptedArr = [];
+          acceptedArr.push(accepted);
+          this.setState({
+            answers: acceptedArr,
+            acceptedAnswerExists: true
+          });
+        } else {
+          this.setState({
+            answers: data.data.answers,
+            acceptedAnswerExists: false
+          });
+        }
       })
       .catch(err => console.log(err));
   }
 
-  render() {
-    let questionBody = this.props.questions.find(x => {
-      return x.question_id === this.state.selectedQuestion;
-    });
-
-    if (typeof questionBody !== "undefined") {
-      questionBody = questionBody.body;
-    }
-
+  showQuestionsList(questions, activeQuestionSort, fetchAnswers) {
     return (
-      <div className="questions">
+      <div>
         <ul>
-          {this.props.questions.map(item => {
-            if (item.sort === this.props.activeQuestionSort) {
+          {questions.map(item => {
+            if (item.sort === activeQuestionSort) {
               return (
                 <li
                   onClick={() => {
-                    this.showDetails(item.question_id);
+                    fetchAnswers(item.question_id);
                   }}
                 >
-                  <span className="questions__score">{item.score}.</span>{" "}
+                  <span className="questions__score">{item.score}.</span>
                   {item.title}
                 </li>
               );
             }
           })}
         </ul>
+      </div>
+    );
+  }
+
+  showAnswerLabel(acceptedAnswerExists) {
+    if (acceptedAnswerExists) {
+      return <h3>Accepted Answer</h3>;
+    } else {
+      return null;
+    }
+  }
+
+  showQandA(question, answers, acceptedAnswerExists) {
+    if (question !== undefined) {
+      return (
         <div className="questions__answers">
           <h2>Question</h2>
           <div
             className="questions__answers__body"
             dangerouslySetInnerHTML={{
-              __html: questionBody
+              __html: question.body
             }}
           />
           <h2>Answers</h2>
-          {this.state.answers.map(answer => {
+          {answers.map(answer => {
             return (
-              <div
-                className="questions__answers__body"
-                dangerouslySetInnerHTML={{ __html: answer.body }}
-              />
+              <div>
+                {this.showAnswerLabel(acceptedAnswerExists)}
+                <div
+                  className="questions__answers__body"
+                  dangerouslySetInnerHTML={{ __html: answer.body }}
+                />
+              </div>
             );
           })}
         </div>
+      );
+    } else {
+      return null;
+    }
+  }
+
+  render() {
+    const question = this.props.questions.find(x => {
+      return x.question_id === this.state.selectedQuestion;
+    });
+
+    return (
+      <div className="questions">
+        {this.showQuestionsList(
+          this.props.questions,
+          this.props.activeQuestionSort,
+          this.fetchAnswers
+        )}
+        {this.showQandA(
+          question,
+          this.state.answers,
+          this.state.acceptedAnswerExists
+        )}
       </div>
     );
   }

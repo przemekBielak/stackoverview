@@ -130,13 +130,13 @@ const getStackQuestions = questions => {
 
     fs.writeFile(
       "./stackQuestions.json",
-      JSON.stringify(stackQuestions, null, 2),
+      JSON.stringify(stackQuestions, null, 2).replace("/&#39;/g", "'"),
       err => {
         console.log(err);
       }
     );
 
-    app.listen(PORT, () => console.log(`Serving on port ${PORT}`));
+    app.listen(process.env.PORT || PORT, () => console.log(`Serving on port ${PORT}`));
   })();
 };
 
