@@ -107,7 +107,7 @@ const getStackQuestions = questions => {
       const res = await fetch(
         `https://api.stackexchange.com/2.2/questions?order=desc&sort=${sort}&site=stackoverflow&filter=withbody`
       );
-      const data = await res.replace(/&quot;/g, "'").json();
+      const data = await res.json();
       stackQuestions.push(
         ...data.items.map(el => {
           return { ...el, sort: sort };
@@ -117,7 +117,7 @@ const getStackQuestions = questions => {
 
     fs.writeFile(
       "./stackQuestions.json",
-      JSON.stringify(stackQuestions, null, 2),
+      JSON.stringify(stackQuestions, null, 2).replace("/&#39;/g", "'"),
       err => {
         console.log(err);
       }
@@ -128,3 +128,8 @@ const getStackQuestions = questions => {
 };
 
 getStackQuestions(questionSorts);
+// app.listen(PORT, () => console.log(`Serving on port ${PORT}`));
+
+// fs.readFile("./stackQuestions.json", "utf8", (err, data) => {
+//   stackQuestions = JSON.parse(data);
+// });
