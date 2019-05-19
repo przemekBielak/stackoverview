@@ -20,7 +20,7 @@
     "nodemon": "^1.19.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node server.js",
     "build": "react-scripts build",
     "rebuild": "npm run build && node server.js",
     "test": "react-scripts test --env=jsdom",
