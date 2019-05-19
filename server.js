@@ -123,7 +123,7 @@ const getStackQuestions = questions => {
       }
     );
 
-    app.listen(PORT, () => console.log(`Serving on port ${PORT}`));
+    app.listen(process.env.PORT || PORT, () => console.log(`Serving on port ${PORT}`));
   })();
 };
 
