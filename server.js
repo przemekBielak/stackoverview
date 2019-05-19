@@ -120,7 +120,6 @@ const getStackQuestions = questions => {
         .replace(/&amp;/g, "&")
         .replace(/&#38;/g, "&");
       const parsedData = JSON.parse(jsonStringified);
-      console.log(parsedData);
       stackQuestions.push(
         ...parsedData.items.map(el => {
           return { ...el, sort: sort };
