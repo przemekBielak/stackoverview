@@ -6,7 +6,8 @@ class Questions extends Component {
     super(props);
     this.state = {
       selectedQuestion: 0,
-      answers: []
+      answers: [],
+      acceptedAnswerExists: false
     };
 
     this.fetchAnswers = this.fetchAnswers.bind(this);
@@ -47,11 +48,13 @@ class Questions extends Component {
           const acceptedArr = [];
           acceptedArr.push(accepted);
           this.setState({
-            answers: acceptedArr
+            answers: acceptedArr,
+            acceptedAnswerExists: true
           });
         } else {
           this.setState({
-            answers: data.data.answers
+            answers: data.data.answers,
+            acceptedAnswerExists: false
           });
         }
       })
@@ -81,7 +84,15 @@ class Questions extends Component {
     );
   }
 
-  showQandA(question, answers) {
+  showAnswerLabel(acceptedAnswerExists) {
+    if (acceptedAnswerExists) {
+      return <h3>Accepted Answer</h3>;
+    } else {
+      return null;
+    }
+  }
+
+  showQandA(question, answers, acceptedAnswerExists) {
     if (question !== undefined) {
       return (
         <div className="questions__answers">
@@ -95,10 +106,13 @@ class Questions extends Component {
           <h2>Answers</h2>
           {answers.map(answer => {
             return (
-              <div
-                className="questions__answers__body"
-                dangerouslySetInnerHTML={{ __html: answer.body }}
-              />
+              <div>
+                {this.showAnswerLabel(acceptedAnswerExists)}
+                <div
+                  className="questions__answers__body"
+                  dangerouslySetInnerHTML={{ __html: answer.body }}
+                />
+              </div>
             );
           })}
         </div>
@@ -120,7 +134,11 @@ class Questions extends Component {
           this.props.activeQuestionSort,
           this.fetchAnswers
         )}
-        {this.showQandA(question, this.state.answers)}
+        {this.showQandA(
+          question,
+          this.state.answers,
+          this.state.acceptedAnswerExists
+        )}
       </div>
     );
   }
