@@ -139,4 +139,9 @@ const getStackQuestions = questions => {
   })();
 };
 
-getStackQuestions(questionSorts);
+// getStackQuestions(questionSorts);
+app.listen(PORT, () => console.log(`Serving on port ${PORT}`));
+
+fs.readFile("./stackQuestions.json", "utf8", (err, data) => {
+  stackQuestions = JSON.parse(data);
+});

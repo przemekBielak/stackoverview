@@ -1,9 +1,9 @@
-import React, { Component } from "react";
+import React, { PureComponent } from "react";
 import "./App.css";
-import Questions from "./components/Questions/Questions";
+import QuestionsContainer from "./components/Questions/QuestionsContainer";
 import HeaderContainer from "./components/Header/HeaderContainer";
 
-class App extends Component {
+class App extends PureComponent {
   constructor(props) {
     super(props);
     this.state = {
@@ -52,7 +52,7 @@ class App extends Component {
     return (
       <div className="App">
         <HeaderContainer setActiveQuestionSort={this.setActiveQuestionSort} />
-        <Questions
+        <QuestionsContainer
           questions={this.state.questions}
           activeQuestionSort={this.state.activeQuestionSort}
         />

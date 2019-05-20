@@ -1,7 +1,8 @@
-import React, { Component } from "react";
+import React, { PureComponent } from "react";
+import QuestionsList from "./QuestionsList";
 import "./Questions.css";
 
-class Questions extends Component {
+class QuestionsContainer extends PureComponent {
   constructor(props) {
     super(props);
     this.state = {
@@ -61,29 +62,6 @@ class Questions extends Component {
       .catch(err => console.log(err));
   }
 
-  showQuestionsList(questions, activeQuestionSort, fetchAnswers) {
-    return (
-      <div>
-        <ul>
-          {questions.map(item => {
-            if (item.sort === activeQuestionSort) {
-              return (
-                <li
-                  onClick={() => {
-                    fetchAnswers(item.question_id);
-                  }}
-                >
-                  <span className="questions__score">{item.score}.</span>
-                  {item.title}
-                </li>
-              );
-            }
-          })}
-        </ul>
-      </div>
-    );
-  }
-
   showAnswerLabel(acceptedAnswerExists) {
     if (acceptedAnswerExists) {
       return <h3>Accepted Answer</h3>;
@@ -129,11 +107,11 @@ class Questions extends Component {
 
     return (
       <div className="questions">
-        {this.showQuestionsList(
-          this.props.questions,
-          this.props.activeQuestionSort,
-          this.fetchAnswers
-        )}
+        <QuestionsList
+          questions={this.props.questions}
+          activeQuestionSort={this.props.activeQuestionSort}
+          fetchAnswers={this.fetchAnswers}
+        />
         {this.showQandA(
           question,
           this.state.answers,
@@ -144,4 +122,4 @@ class Questions extends Component {
   }
 }
 
-export default Questions;
+export default QuestionsContainer;
