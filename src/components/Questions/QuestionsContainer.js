@@ -16,13 +16,13 @@ class QuestionsContainer extends PureComponent {
   }
 
   fetchAnswers(question_id) {
-    const acceptedAnswerId = this.props.questions.find(x => {
-      return x.question_id === question_id;
-    }).accepted_answer_id;
-
     this.setState({
       selectedQuestion: question_id
     });
+    
+    const acceptedAnswerId = this.props.questions.find(x => {
+      return x.question_id === question_id;
+    }).accepted_answer_id;
 
     const requestQuestionsBody = {
       query: `{
