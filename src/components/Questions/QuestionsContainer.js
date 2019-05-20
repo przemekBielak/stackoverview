@@ -1,5 +1,6 @@
 import React, { PureComponent } from "react";
 import QuestionsList from "./QuestionsList";
+import QandA from "./QandA";
 import "./Questions.css";
 
 class QuestionsContainer extends PureComponent {
@@ -62,44 +63,6 @@ class QuestionsContainer extends PureComponent {
       .catch(err => console.log(err));
   }
 
-  showAnswerLabel(acceptedAnswerExists) {
-    if (acceptedAnswerExists) {
-      return <h3>Accepted Answer</h3>;
-    } else {
-      return null;
-    }
-  }
-
-  showQandA(question, answers, acceptedAnswerExists) {
-    if (question !== undefined) {
-      return (
-        <div className="questions__answers">
-          <h2>Question</h2>
-          <div
-            className="questions__answers__body"
-            dangerouslySetInnerHTML={{
-              __html: question.body
-            }}
-          />
-          <h2>Answers</h2>
-          {answers.map(answer => {
-            return (
-              <div>
-                {this.showAnswerLabel(acceptedAnswerExists)}
-                <div
-                  className="questions__answers__body"
-                  dangerouslySetInnerHTML={{ __html: answer.body }}
-                />
-              </div>
-            );
-          })}
-        </div>
-      );
-    } else {
-      return null;
-    }
-  }
-
   render() {
     const question = this.props.questions.find(x => {
       return x.question_id === this.state.selectedQuestion;
@@ -112,11 +75,11 @@ class QuestionsContainer extends PureComponent {
           activeQuestionSort={this.props.activeQuestionSort}
           fetchAnswers={this.fetchAnswers}
         />
-        {this.showQandA(
-          question,
-          this.state.answers,
-          this.state.acceptedAnswerExists
-        )}
+        <QandA
+          question={question}
+          answers={this.state.answers}
+          acceptedAnswerExists={this.state.acceptedAnswerExists}
+        />
       </div>
     );
   }
